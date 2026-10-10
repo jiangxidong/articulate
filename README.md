@@ -2,7 +2,7 @@
 
 Practise answering hard questions out loud. Articulate is a ten-minute live voice call with an AI Partner that asks a question, pushes back on the answer, and gives one fix at a time.
 
-<!-- DEMO VIDEO: paste the GitHub upload URL for articulate-demo.mp4 on the line below, then delete this comment. -->
+[<!-- DEMO VIDEO: paste the GitHub upload URL for articulate-demo.mp4 on the line below, then delete this comment. -->](https://github.com/user-attachments/assets/6667d864-88b5-4576-b610-8e8f7e31fb15)
 
 ![The Ready screen: a Scene, the Next focus from last time, today's Thinking pattern and the Call button](docs/images/ready.jpg)
 
