@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>Articulate · demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <!-- Element boxes of the captured screens, written by video/capture/capture.mjs. -->
+    <script src="assets/screens/rects.js"></script>
+    <style>
+      /* The app's own fonts and tokens (app/public/styles.css, light theme). */
+      @font-face {
+        font-family: "Bricolage Grotesque";
+        src: url("assets/fonts/bricolage-grotesque-latin-standard-normal.woff2") format("woff2");
+        font-weight: 200 800;
+        font-stretch: 75% 100%;
+      }
+      @font-face {
+        font-family: "Atkinson Hyperlegible";
+        src: url("assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Atkinson Hyperlegible";
+        src: url("assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2");
+        font-weight: 100 800;
+      }
+      :root {
+        --bg: #e7ebf0;
+        --surface: #ffffff;
+        --ink: #131c26;
+        --muted: #5a6574;
+        --line: #d6dce4;
+        --accent: #2a54c6;
+        --live: #c63a31;
+        --live-dark: #ff6e64;
+        --good: #1f7f55;
+        --display: "Bricolage Grotesque", sans-serif;
+        --body: "Atkinson Hyperlegible", sans-serif;
+        --mono: "JetBrains Mono", monospace;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--bg);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: var(--body);
+        color: var(--ink);
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+      }
+      .fill {
+        position: absolute;
+        inset: 0;
+      }
+
+      /* A crop of a captured screen: the image is placed so only one element's box shows. */
+      .pc {
+        position: absolute;
+        overflow: hidden;
+      }
+      .pc img {
+        position: absolute;
+        display: block;
+        max-width: none;
+      }
+
+      .eyebrow {
+        font-family: var(--mono);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .display {
+        font-family: var(--display);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+      /* Overlays that start hidden and are brought in by the timeline. */
+      .press,
+      .ring,
+      .strike,
+      #ripple,
+      #sum-dim {
+        opacity: 0;
+      }
+      .press {
+        position: absolute;
+        background: rgba(19, 28, 38, 0.22);
+        border-radius: 22px;
+      }
+      .ring {
+        position: absolute;
+        border: 4px solid var(--accent);
+        border-radius: 12px;
+      }
+      .strike {
+        position: absolute;
+        background: var(--live);
+        border-radius: 5px;
+      }
+
+      /* ---- hook ---- */
+      #hook-bg {
+        background: var(--ink);
+      }
+      #hook-eyebrow {
+        position: absolute;
+        left: 150px;
+        top: 96px;
+        color: #8e9aa8;
+      }
+      #hook-words {
+        position: absolute;
+        left: 150px;
+        top: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+      .hw {
+        position: relative;
+        display: block;
+        font-size: 262px;
+        line-height: 0.98;
+        color: var(--bg);
+        white-space: nowrap;
+      }
+      .hw-t {
+        display: block;
+      }
+      .hw-strike {
+        position: absolute;
+        left: -24px;
+        right: -24px;
+        top: 54%;
+        height: 24px;
+        border-radius: 12px;
+        background: var(--live-dark);
+      }
+
+      /* ---- Ready: a one-line caption above the window ---- */
+      #ready-bg {
+        background: var(--bg);
+      }
+      .caption {
+        position: absolute;
+        display: grid;
+        gap: 12px;
+      }
+      #ready-cap {
+        left: 192px;
+        top: 40px;
+      }
+      #ready-cap .display {
+        font-size: 60px;
+      }
+      #ready-win {
+        position: absolute;
+        left: 192px;
+        top: 168px;
+        width: 1536px;
+        height: 852px;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+        background: var(--bg);
+        overflow: hidden;
+        box-shadow: 0 40px 90px rgba(19, 28, 38, 0.18);
+      }
+      .win-bar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 36px;
+        background: var(--surface);
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 14px;
+      }
+      .win-bar i {
+        display: block;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: var(--line);
+      }
+      #ready-view {
+        position: absolute;
+        left: 0;
+        top: 36px;
+        width: 1536px;
+        height: 816px;
+        overflow: hidden;
+      }
+
+      /* ---- the call: one sentence on the left, one element at a time on the right ---- */
+      .label {
+        position: absolute;
+        left: 96px;
+        top: 392px;
+        width: 600px;
+        display: grid;
+        gap: 20px;
+      }
+      .label .display {
+        font-size: 84px;
+      }
+      .stage {
+        position: absolute;
+        left: 770px;
+        top: 0;
+        width: 1080px;
+        height: 1080px;
+      }
+
+      /* ---- summary: the two versions, side by side ---- */
+      #sum-cap {
+        left: 70px;
+        top: 236px;
+      }
+      #sum-cap .display {
+        font-size: 84px;
+      }
+      #sum-row {
+        position: absolute;
+        left: 70px;
+        top: 520px;
+        width: 1781px;
+        height: 211px;
+      }
+      #sum-card {
+        position: absolute;
+        left: -34px;
+        top: -34px;
+        width: 1849px;
+        height: 279px;
+        border-radius: 46px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        box-shadow: 0 40px 90px rgba(19, 28, 38, 0.14);
+      }
+      #sum-dim {
+        position: absolute;
+        background: rgba(243, 245, 248, 0.7);
+        border-radius: 30px;
+      }
+
+      /* ---- lockup: the app's icon and name ---- */
+      #lock-bg {
+        background: var(--bg);
+      }
+      #lock {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1920px;
+        height: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 54px;
+      }
+      #lock-row {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+      }
+      #mark {
+        position: relative;
+        display: block;
+        width: 184px;
+        height: 184px;
+        border-radius: 50px;
+        overflow: hidden;
+        flex: none;
+      }
+      /* One layer per part of the icon, so each can move on its own. */
+      .ic {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 184px;
+        height: 184px;
+      }
+      #word-clip {
+        display: block;
+        overflow: hidden;
+        padding: 12px 8px 20px 0;
+      }
+      #word {
+        display: block;
+        font-size: 176px;
+        letter-spacing: -0.02em;
+        white-space: nowrap;
+      }
+      #tag {
+        display: flex;
+        gap: 22px;
+        font-size: 68px;
+        white-space: nowrap;
+      }
+      #tag-b {
+        color: var(--accent);
+      }
+      #lock-eyebrow {
+        color: var(--muted);
+      }
+
+      /* ---- cursor ---- */
+      #cur {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 48px;
+        height: 48px;
+      }
+      #ripple {
+        position: absolute;
+        left: -44px;
+        top: -44px;
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        border: 5px solid var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-at0g" id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1920" data-height="1080">
+      <!-- 1 · Hook (0–3 s): the fillers, one per beat, struck out -->
+      <section data-hf-id="hf-atx8" id="s-hook" class="clip" data-start="0" data-duration="3.1" data-track-index="1">
+        <div data-hf-id="hf-dj9s" id="hook-bg" class="fill"></div>
+        <div data-hf-id="hf-aphw" id="hook-in" class="fill">
+          <div data-hf-id="hf-fyav" id="hook-eyebrow" class="eyebrow">When the question lands</div>
+          <div data-hf-id="hf-cfa9" id="hook-words" class="display">
+            <span data-hf-id="hf-xs02" class="hw"><span data-hf-id="hf-7fdv" class="hw-t">Um.</span><span data-hf-id="hf-thrd" class="hw-strike"></span></span>
+            <span data-hf-id="hf-y4py" class="hw"><span data-hf-id="hf-ypb4" class="hw-t">Like.</span><span data-hf-id="hf-wt99" class="hw-strike"></span></span>
+            <span data-hf-id="hf-yj0z" class="hw"><span data-hf-id="hf-qeej" class="hw-t">You know.</span><span data-hf-id="hf-y06c" class="hw-strike"></span></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2 · The product appears (3–6 s): the desktop Ready screen assembles, the cursor clicks Call -->
+      <section data-hf-id="hf-83l3" id="s-ready" class="clip" data-start="2.5" data-duration="3.6" data-track-index="2">
+        <div data-hf-id="hf-zjpq" id="ready-bg" class="fill"></div>
+        <div data-hf-id="hf-kg12" id="ready-in" class="fill">
+          <div data-hf-id="hf-9efa" id="ready-cap" class="caption">
+            <div data-hf-id="hf-ni0h" class="eyebrow">Articulate</div>
+            <div data-hf-id="hf-3mik" class="display">Ten-minute calls with an AI Partner.</div>
+          </div>
+          <div data-hf-id="hf-4yxr" id="ready-win">
+            <div data-hf-id="hf-3va2" class="win-bar"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i></div>
+            <div data-hf-id="hf-zsh8" id="ready-view"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 · The follow-up (6–10 s): the question, then the Partner pushing back -->
+      <section data-hf-id="hf-x7im" id="s-ask" class="clip" data-start="5.85" data-duration="4.2" data-track-index="3">
+        <div data-hf-id="hf-zius" id="ask-in" class="fill">
+          <div data-hf-id="hf-bo68" id="label-1" class="label">
+            <div data-hf-id="hf-2fw1" class="eyebrow">01 · Live call</div>
+            <div data-hf-id="hf-fm70" class="display">Follow-ups that push back.</div>
+          </div>
+          <div data-hf-id="hf-bw8r" id="ask" class="stage"></div>
+        </div>
+      </section>
+
+      <!-- 4 · The Coaching point (10–14 s) -->
+      <section data-hf-id="hf-r0gc" id="s-coach" class="clip" data-start="9.9" data-duration="4.15" data-track-index="4">
+        <div data-hf-id="hf-shfr" id="coach-in" class="fill">
+          <div data-hf-id="hf-kc23" id="label-2" class="label">
+            <div data-hf-id="hf-gwxi" class="eyebrow">02 · Coaching point</div>
+            <div data-hf-id="hf-el7a" class="display">One fix, in your own words.</div>
+          </div>
+          <div data-hf-id="hf-z6o6" id="coach" class="stage"></div>
+        </div>
+      </section>
+
+      <!-- 5 · The Summary's compare row (14–17 s) -->
+      <section data-hf-id="hf-86mm" id="s-sum" class="clip" data-start="13.9" data-duration="3.2" data-track-index="5">
+        <div data-hf-id="hf-3x3u" id="sum-in" class="fill">
+          <div data-hf-id="hf-akz6" id="sum-cap" class="caption">
+            <div data-hf-id="hf-bey9" class="eyebrow">03 · Summary</div>
+            <div data-hf-id="hf-zlvc" class="display">Your Redo, next to a better version.</div>
+          </div>
+          <div data-hf-id="hf-0z2x" id="sum-row"><div data-hf-id="hf-b171" id="sum-card"></div></div>
+        </div>
+      </section>
+
+      <!-- 6 · Lockup (17–20 s): app/public/icon.svg, drawn in its own order -->
+      <section data-hf-id="hf-rjmx" id="s-lock" class="clip" data-start="16.9" data-duration="3.1" data-track-index="6">
+        <div data-hf-id="hf-6ddc" id="lock-bg" class="fill"></div>
+        <div data-hf-id="hf-sgcw" id="lock">
+          <div data-hf-id="hf-nihr" id="lock-row">
+            <span data-hf-id="hf-r5gp" id="mark">
+              <svg data-hf-id="hf-0551" id="ic-bg" class="ic" viewBox="0 0 512 512" aria-hidden="true"><rect data-hf-id="hf-thuz" width="512" height="512" fill="#2A54C6" /></svg>
+              <svg data-hf-id="hf-08xe" id="ic-bubble" class="ic" viewBox="0 0 512 512" aria-hidden="true"><g data-hf-id="hf-mxs5" fill="#E7EBF0"><rect data-hf-id="hf-vkvh" x="74" y="82" width="364" height="304" rx="155" ry="152" /><path data-hf-id="hf-ry8b" d="M126 338 L91 409 Q84 425 99 428 Q106 429 113 425 L196 380 Z" /></g></svg>
+              <svg data-hf-id="hf-hu5a" id="ic-eye-l" class="ic" viewBox="0 0 512 512" aria-hidden="true"><circle data-hf-id="hf-xwye" cx="181" cy="245" r="29.5" fill="#131C26" /></svg>
+              <svg data-hf-id="hf-nkr4" id="ic-eye-r" class="ic" viewBox="0 0 512 512" aria-hidden="true"><circle data-hf-id="hf-u21f" cx="331" cy="245" r="29.5" fill="#131C26" /></svg>
+              <svg data-hf-id="hf-wjnz" id="ic-mouth" class="ic" viewBox="0 0 512 512" aria-hidden="true"><rect data-hf-id="hf-ygfv" x="213" y="295" width="86" height="16" rx="8" fill="#131C26" /></svg>
+              <svg data-hf-id="hf-bqua" id="ic-brow" class="ic" viewBox="0 0 512 512" aria-hidden="true"><path data-hf-id="hf-kyll" d="M157.7 196.2 L220.7 220.2 A12 12 0 0 0 229.3 197.8 L166.3 173.8 A12 12 0 0 0 157.7 196.2 Z" fill="#131C26" /></svg>
+            </span>
+            <span data-hf-id="hf-f92t" id="word-clip"><span data-hf-id="hf-jxx3" id="word" class="display">Articulate</span></span>
+          </div>
+          <div data-hf-id="hf-t2z4" id="tag" class="display"><span data-hf-id="hf-avw6" id="tag-a">Say the point first.</span><span data-hf-id="hf-a2rk" id="tag-b">Then hold it.</span></div>
+          <div data-hf-id="hf-sgxq" id="lock-eyebrow" class="eyebrow">Executive speaking coach</div>
+        </div>
+      </section>
+
+      <div data-hf-id="hf-q60r" id="s-cursor" class="clip" data-start="4.5" data-duration="5.4" data-track-index="7">
+        <div data-hf-id="hf-de01" id="cur">
+          <div data-hf-id="hf-l3gf" id="ripple"></div>
+          <svg data-hf-id="hf-79ll" viewBox="0 0 24 24" width="48" height="48" aria-hidden="true">
+            <path data-hf-id="hf-9v5e" d="M4 2.5v17.2l4.6-4.3 3 6.9 2.9-1.3-3-6.8h6.3z" fill="#131c26" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+
+      <audio data-hf-id="hf-84is" id="track" src="assets/audio/track.wav" data-start="0" data-duration="20" data-track-index="9" data-volume="1"></audio>
+    </div>
+
+    <script>
+      gsap.config({ force3D: false });
+      const S = window.RECTS.states;
+      const $ = (sel) => document.querySelector(sel);
+
+      /** A crop of a captured image: the box r (capture px), drawn at scale k, placed at left/top in parent. */
+      function crop(parent, src, page, r, k, left, top) {
+        const d = document.createElement("div");
+        d.className = "pc";
+        Object.assign(d.style, { left: `${left}px`, top: `${top}px`, width: `${r.w * k}px`, height: `${r.h * k}px` });
+        const img = document.createElement("img");
+        img.src = `assets/screens/${src}.png`;
+        img.alt = "";
+        img.setAttribute("data-layout-allow-overflow", "");
+        Object.assign(img.style, { left: `${-r.x * k}px`, top: `${-r.y * k}px`, width: `${page.w * k}px`, height: `${page.h * k}px` });
+        d.appendChild(img);
+        parent.appendChild(d);
+        return d;
+      }
+      const shot = (parent, state, r, k, left, top) => crop(parent, state, S[state].page, r, k, left, top);
+      const box = (cls, parent, r) => {
+        const d = document.createElement("div");
+        d.className = cls;
+        Object.assign(d.style, { left: `${r.x}px`, top: `${r.y}px`, width: `${r.w}px`, height: `${r.h}px` });
+        parent.appendChild(d);
+        return d;
+      };
+      /** r as a box inside a crop of `of` drawn at scale k, grown by pad. */
+      const within = (r, of, k, pad = 0) => ({ x: (r.x - of.x) * k - pad, y: (r.y - of.y) * k - pad, w: r.w * k + 2 * pad, h: r.h * k + 2 * pad });
+      const hide = (els) => els.forEach((el) => (el.style.opacity = "0"));
+
+      // ---- 2 · Ready at 1.2x inside the window
+      const KR = 1.2, ready = S.ready;
+      const readyParts = ["topbar", "scene", "setting", "focus", "pattern", "category", "cta"].map((name) =>
+        shot($("#ready-view"), "ready", ready[name], KR, ready[name].x * KR, ready[name].y * KR),
+      );
+      const callPress = box("press", $("#ready-view"), within(ready.call, { x: 0, y: 0 }, KR));
+
+      // ---- 3 · The question and one Follow-up, each at 1.8x, with the status pill and the buttons below
+      const K = 1.8, ask = $("#ask");
+      const mainQ = S["call-main"].items[0], [, answered, followUp] = S["call-hostile"].items;
+      const clock = shot(ask, "call-main", S["call-main"].clock, 1.5, 0, 92);
+      const b1 = shot(ask, "call-main", mainQ, K, 0, 180);
+      const line = shot(ask, "call-hostile", answered, K, (answered.x - mainQ.x) * K, 180 + mainQ.h * K + 30);
+      const B2_TOP = 180 + mainQ.h * K + 30 + answered.h * K + 30;
+      const b2 = shot(ask, "call-hostile", followUp, K, 0, B2_TOP);
+      const tag = within(S["call-hostile"].tag[0], followUp, K, 7);
+      const tagRing = box("ring", ask, { ...tag, y: tag.y + B2_TOP });
+
+      const STATUS_TOP = 716, status = S["call-main"].status, row = S["call-main"].row;
+      const ROW_TOP = STATUS_TOP + status.h * K + 18;
+      const waveFrames = (name) =>
+        Array.from({ length: window.RECTS.waveFrames }, (_, i) => crop(ask, `wave-${name}-${i}`, status, { ...status, x: 0, y: 0 }, K, 0, STATUS_TOP));
+      const waves = { partner: waveFrames("partner"), listening: waveFrames("listening") };
+      const allWaves = [...waves.partner, ...waves.listening];
+      hide(allWaves.slice(1));
+      const rowOff = shot(ask, "call-main", row, K, 0, ROW_TOP), rowOn = shot(ask, "call-listening", row, K, 0, ROW_TOP);
+      hide([rowOn]);
+      const done = within(S["call-main"].done, row, K);
+      const donePress = box("press", ask, { ...done, y: done.y + ROW_TOP });
+
+      // ---- 4 · The Coaching point alone
+      const coach = $("#coach"), point = S["call-coaching"].items[4];
+      const POINT_TOP = (1080 - point.h * K) / 2;
+      const bubble = shot(coach, "call-coaching", point, K, 0, POINT_TOP);
+      const mark = (r, pad) => {
+        const b = within(r, point, K, pad);
+        return box("ring", coach, { ...b, y: b.y + POINT_TOP });
+      };
+      const quoteRing = mark(S["call-coaching"].quote, 9), fixRing = mark(S["call-coaching"].fix, 9);
+      quoteRing.style.borderColor = "#c63a31";
+
+      // ---- 5 · The Summary's compare row at 2.6x
+      const KS = 2.6, sum = S.summary, compare = sum.compares[0];
+      shot($("#sum-row"), "summary", compare, KS, 0, 0);
+      const strikes = [sum.um, sum.like].map((r) => {
+        const b = within(r, compare, KS);
+        return box("strike", $("#sum-row"), { x: b.x - 4, y: b.y + b.h * 0.5, w: b.w, h: 9 });
+      });
+      const yours = within(sum.yours[0], compare, KS), better = within(sum.better[0], compare, KS, 7);
+      const sumDim = box("", $("#sum-row"), yours);
+      sumDim.id = "sum-dim";
+      const betterRing = box("ring", $("#sum-row"), better);
+      Object.assign(betterRing.style, { borderColor: "#1f7f55", borderRadius: "34px", borderWidth: "5px" });
+
+      // ---- frame positions the cursor travels to
+      const CALL_BTN = { x: 192 + (ready.call.x + ready.call.w / 2) * KR, y: 168 + 36 + (ready.call.y + ready.call.h / 2) * KR + 6 };
+      const DONE_BTN = { x: 770 + done.x + done.w / 2, y: ROW_TOP + done.y + done.h / 2 + 8 };
+
+      // ================= timeline (seconds; beats are 0.5 s at 120 BPM, as in scripts/synth-audio.mjs) =================
+      const tl = gsap.timeline({ paused: true });
+      const pop = (el, at, o = {}) =>
+        tl.fromTo(el, { opacity: 0, y: o.y ?? 40, scale: o.from ?? 0.92 }, { opacity: 1, y: 0, scale: 1, duration: o.d ?? 0.4, ease: o.ease ?? "back.out(1.7)", transformOrigin: o.origin ?? "50% 50%" }, at);
+      const show = (els, on, at) => {
+        tl.set(els, { opacity: 0 }, at);
+        tl.set(on, { opacity: 1 }, at);
+      };
+      const ringIn = (el, at) => tl.fromTo(el, { opacity: 0, scale: 1.35 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, at);
+      const flash = (el, at) => tl.fromTo(el, { opacity: 1 }, { opacity: 0, duration: 0.22, immediateRender: false }, at);
+
+      // ---- 1 · Hook
+      tl.fromTo("#hook-eyebrow", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.3, ease: "power2.out" }, 0.1);
+      gsap.utils.toArray(".hw-t").forEach((el, i) => {
+        tl.fromTo(el, { opacity: 0, scale: 1.7, y: 40 }, { opacity: 1, scale: 1, y: 0, duration: 0.16, ease: "power4.out", transformOrigin: "0% 60%" }, 0.5 + i * 0.5);
+        tl.fromTo("#hook-in", { x: 0 }, { x: 14, duration: 0.04, yoyo: true, repeat: 3, ease: "none", immediateRender: false }, 0.5 + i * 0.5 + 0.06);
+      });
+      tl.fromTo(".hw-strike", { scaleX: 0 }, { scaleX: 1, duration: 0.26, ease: "power4.out", transformOrigin: "0% 50%", stagger: 0.07 }, 2.0);
+      tl.to(".hw-t", { opacity: 0.38, duration: 0.2 }, 2.12);
+      tl.fromTo("#hook-words", { y: 0 }, { y: -160, duration: 0.5, ease: "expo.in" }, 2.5);
+
+      // ---- 2 · Ready
+      tl.fromTo("#ready-bg", { y: 1080 }, { y: 0, duration: 0.5, ease: "expo.inOut" }, 2.5);
+      tl.fromTo("#ready-win", { opacity: 0, y: 120, scale: 0.92 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "expo.out" }, 2.8);
+      tl.fromTo("#ready-cap", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 3.05);
+      readyParts.forEach((el, i) => pop(el, 3.0 + i * 0.25, { y: i === 1 ? 0 : 40, from: i === 1 ? 0.9 : 0.94 }));
+      flash(callPress, 5.5);
+      tl.to("#ready-win", { scale: 2.4, opacity: 0, duration: 0.42, ease: "expo.in", transformOrigin: `${(ready.call.x + ready.call.w / 2) * KR}px ${36 + (ready.call.y + 30) * KR}px` }, 5.62);
+      tl.to("#ready-cap", { opacity: 0, y: -24, duration: 0.25, ease: "power2.in" }, 5.62);
+
+      // ---- cursor: Call, then Done
+      tl.fromTo("#cur", { x: 1780, y: 1120, opacity: 0 }, { x: CALL_BTN.x, y: CALL_BTN.y, opacity: 1, duration: 0.7, ease: "power3.inOut" }, 4.65);
+      const click = (at) => {
+        tl.to("#cur svg", { scale: 0.8, duration: 0.07, yoyo: true, repeat: 1, ease: "power1.inOut", transformOrigin: "20% 10%" }, at - 0.04);
+        tl.fromTo("#ripple", { scale: 0.2, opacity: 0.9 }, { scale: 1.6, opacity: 0, duration: 0.4, ease: "power2.out", immediateRender: false }, at);
+      };
+      click(5.5);
+      tl.to("#cur", { opacity: 0, duration: 0.15 }, 5.7);
+      tl.set("#cur", { x: 1640, y: 640 }, 6.0);
+      tl.to("#cur", { opacity: 1, duration: 0.2 }, 8.55);
+      tl.to("#cur", { x: DONE_BTN.x, y: DONE_BTN.y, duration: 0.55, ease: "power3.inOut" }, 8.6);
+      click(9.25);
+      tl.to("#cur", { opacity: 0, duration: 0.2 }, 9.55);
+
+      // ---- 3 · The follow-up: the question first; then it steps back and the Follow-up takes the light
+      tl.fromTo("#label-1", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, 6.05);
+      pop(clock, 6.0, { y: 20, from: 1, ease: "power2.out", d: 0.3 });
+      pop(b1, 6.1, { origin: "0% 100%" });
+      tl.fromTo(allWaves[0], { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, 6.3);
+      pop(rowOff, 6.4, { y: 30, from: 1, ease: "power2.out", d: 0.3 });
+      // The waveform's own frames, at the app's own speeds (1.4 s while the Partner speaks, 1.1 s while it listens).
+      const wave = (frames, period, from, to) => {
+        for (let t = from, n = 1; t < to; t += period / frames.length, n++) show(allWaves, frames[n % frames.length], t);
+      };
+      wave(waves.partner, 1.4, 6.6, 8.75);
+      wave(waves.listening, 1.1, 8.75, 9.75);
+      pop(line, 7.5, { y: 14, from: 1, ease: "power2.out", d: 0.25 });
+      tl.to(b1, { opacity: 0.4, duration: 0.3 }, 7.6);
+      pop(b2, 7.75, { origin: "0% 100%", from: 0.88, d: 0.45 });
+      ringIn(tagRing, 8.25);
+      show([rowOff, rowOn], rowOn, 8.75);
+      flash(donePress, 9.25);
+      tl.to("#ask", { y: -70, opacity: 0, duration: 0.3, ease: "power2.in" }, 9.6);
+      tl.to("#label-1", { opacity: 0, y: -30, duration: 0.22, ease: "power2.in" }, 9.7);
+
+      // ---- 4 · The Coaching point: what you said, then the one fix
+      tl.fromTo("#label-2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 10.0);
+      pop(bubble, 10.0, { origin: "0% 100%", from: 0.86, d: 0.5 });
+      ringIn(quoteRing, 10.75);
+      tl.to(quoteRing, { opacity: 0.3, duration: 0.3 }, 11.7);
+      ringIn(fixRing, 11.75);
+      tl.fromTo("#coach", { scale: 1 }, { scale: 1.04, duration: 3.4, ease: "none", transformOrigin: "50% 50%" }, 10.1);
+      tl.to("#coach", { x: 240, opacity: 0, duration: 0.4, ease: "expo.in" }, 13.5);
+      tl.to("#label-2", { x: -80, opacity: 0, duration: 0.35, ease: "power2.in" }, 13.5);
+
+      // ---- 5 · Summary: the fillers go, the Better version stays
+      tl.fromTo("#sum-cap", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 13.95);
+      tl.fromTo("#sum-row", { opacity: 0, y: 80, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.5, ease: "expo.out" }, 14.0);
+      strikes.forEach((el, i) =>
+        tl.fromTo(el, { opacity: 1, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.2, ease: "power4.out", transformOrigin: "0% 50%", immediateRender: false }, 14.75 + i * 0.25));
+      ringIn(betterRing, 15.5);
+      tl.to(sumDim, { opacity: 1, duration: 0.3 }, 15.5);
+      tl.to(strikes, { opacity: 0.45, duration: 0.3 }, 15.5);
+      tl.to("#sum-row", { scale: 0.92, opacity: 0, duration: 0.25, ease: "power2.in" }, 16.7);
+      tl.to("#sum-cap", { opacity: 0, y: -24, duration: 0.25, ease: "power2.in" }, 16.7);
+
+      // ---- 6 · Lockup: square, bubble, face, name; the eyebrow goes up last
+      tl.fromTo("#lock-bg", { opacity: 0 }, { opacity: 1, duration: 0.12 }, 16.9);
+      tl.fromTo("#mark", { scale: 0, rotation: -24 }, { scale: 1, rotation: 0, duration: 0.5, ease: "back.out(1.8)" }, 17.0);
+      tl.fromTo("#ic-bubble", { scale: 0 }, { scale: 1, duration: 0.4, ease: "back.out(2)", transformOrigin: "50% 50%" }, 17.25);
+      [["#ic-eye-l", "35.4% 47.9%"], ["#ic-eye-r", "64.6% 47.9%"], ["#ic-mouth", "50% 59.2%"]].forEach(([el, origin], i) =>
+        tl.fromTo(el, { scale: 0 }, { scale: 1, duration: 0.3, ease: "back.out(3)", transformOrigin: origin }, 17.5 + i * 0.06));
+      tl.fromTo("#word", { xPercent: -104 }, { xPercent: 0, duration: 0.55, ease: "expo.out" }, 17.5);
+      tl.fromTo("#ic-brow", { opacity: 0, y: 16, rotation: -20 }, { opacity: 1, y: 0, rotation: 0, duration: 0.45, ease: "back.out(3.5)", transformOrigin: "37.7% 38.5%" }, 18.0);
+      tl.fromTo("#tag-a", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 18.0);
+      tl.fromTo("#tag-b", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 18.5);
+      tl.fromTo("#lock-eyebrow", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 18.9);
+      tl.fromTo("#lock", { scale: 1 }, { scale: 1.035, duration: 3, ease: "none" }, 17.0);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

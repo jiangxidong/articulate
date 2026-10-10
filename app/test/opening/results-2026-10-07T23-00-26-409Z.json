@@ -1,0 +1,202 @@
+[
+  {
+    "case": "intro 1",
+    "run": 1,
+    "opening": "Hi. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "followUp": "Why is the lost revenue from window tables specifically your strongest reason for this selective ban?",
+    "openingVerbatim": true,
+    "mainVerbatim": false,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 3,
+    "opening": "Hi. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "followUp": "Why are window tables the main priority for stopping lost revenue?",
+    "openingVerbatim": true,
+    "mainVerbatim": false,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 2,
+    "opening": "Hi. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you think window tables specifically impact revenue loss more than other seating areas on weekends?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 4,
+    "opening": "Hi. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why prioritize window tables specifically when the lost revenue issue could apply to any long stay?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 1,
+    "opening": "Hi. Today's pattern is First read. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you believe banning laptops at window tables specifically will be enough to solve the queue problem during peak weekend hours?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 4,
+    "opening": "Hi. Today's pattern is First read. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would window tables specifically make a bigger difference to your revenue than other tables?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 2,
+    "opening": "Hi. Today's pattern is First read. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you believe banning laptops at window tables specifically resolves the issue of lost revenue?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 1,
+    "opening": "Hi. Today's pattern is Two options and pick. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why limit the ban to just window tables if lost revenue from long stays is the main problem?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 3,
+    "opening": "Hi. Today's pattern is First read. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why will banning laptops only at window tables be enough to significantly reduce the queue and increase weekend revenue?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 2,
+    "opening": "Hi. Today's pattern is Two options and pick. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you think the revenue loss at window tables specifically warrants a laptop ban over other areas?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 4,
+    "opening": "Hi. Today's pattern is Two options and pick. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would restricting laptops just at window tables solve the lost revenue issue effectively?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 3,
+    "opening": "Hi. Today's pattern is Two options and pick. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why prioritize window tables specifically for increasing revenue versus the rest of the café?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 3,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would targeted laptop bans at window tables offset the lost revenue from long stays?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 1,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why is banning laptops only at window tables the most effective way to increase weekend revenue?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 2,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would banning laptops only at window tables generate enough revenue to solve the weekend queue problem?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus only",
+    "run": 1,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would banning laptops just at the window tables solve the lost revenue problem from long stays?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 4,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence. Today's pattern is Answer first. It's on your screen.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why focus only on the window tables if lost revenue is the main problem?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus only",
+    "run": 3,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why is revenue from window tables more critical than the potential customer dissatisfaction from banning laptops there?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus only",
+    "run": 2,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you believe the lost revenue at window tables outweighs the risk of customer dissatisfaction?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus only",
+    "run": 4,
+    "opening": "Hi. Your focus from last time: Give your yes or no in your very first sentence.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "followUp": "Why is maximizing table turnover more critical than maintaining the current customer experience at those window tables?",
+    "openingVerbatim": true,
+    "mainVerbatim": false,
+    "followUpTalksPattern": false
+  }
+]

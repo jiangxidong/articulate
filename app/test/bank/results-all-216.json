@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "01-corner-cafe/7",
+    "line": "First question. The owner can fit three more small tables or keep the comfortable sofa corner. Which would you go for?",
+    "said": "First question. The owner can fit three more small tables or keep the comfortable sofa corner. Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/8",
+    "line": "Second question. The owner plans to open an hour earlier on Saturdays to spread out the rush. Will it actually shorten the late-morning queue?",
+    "said": "Second question. The owner plans to open an hour earlier on Saturdays to spread out the rush. Will it actually shorten the late-morning queue?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/7",
+    "line": "First question. Should supermarkets let shoppers scan items with their own phone as they walk round the store? Good idea or not?",
+    "said": "First question. Should supermarkets let shoppers scan items with their own phone as they walk round the store? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/8",
+    "line": "Second question. Will fully automated grab-and-go stores ever completely replace standard supermarket checkouts, or is that unrealistic? What's more likely?",
+    "said": "Second question. Will fully automated grab-and-go stores ever completely replace standard supermarket checkouts, or is that unrealistic? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/1",
+    "line": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "said": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/2",
+    "line": "Second question. Should cafés stop taking cash completely? Yes or no — and why?",
+    "said": "Second question. Should cafés stop taking cash completely? Yes or no — and why?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/3",
+    "line": "Last one, quickly. Should restaurants stop taking reservations and go walk-in only?",
+    "said": "Last one, quickly. Should restaurants stop taking reservations and go walk-in only?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/4",
+    "line": "First question. Should the owner let customers order ahead on their phones and skip the queue at the door? Good idea or not?",
+    "said": "First question. Should the owner let customers order ahead on their phones and skip the queue at the door? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/5",
+    "line": "Second question. On a busy Saturday, would you share a table with a stranger or take your coffee to go? Which would you choose?",
+    "said": "Second question. On a busy Saturday, would you share a table with a stranger or take your coffee to go? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "01-corner-cafe/6",
+    "line": "Last one, quickly. If the café charged extra for takeaway cups, would people really start bringing their own? What's your read?",
+    "said": "Last one, quickly. If the café charged extra for takeaway cups, would people really start bringing their own? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/1",
+    "line": "First question. Supermarkets want to replace all staffed cashiers with self-checkout machines. Good idea or bad idea? What's your call?",
+    "said": "First question. Supermarkets want to replace all staffed cashiers with self-checkout machines. Good idea or bad idea? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/2",
+    "line": "Second question. You have a full basket at rush hour: wait in a slow staffed lane or try self-checkout? Which would you choose?",
+    "said": "Second question. You have a full basket at rush hour: wait in a slow staffed lane or try self-checkout? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/3",
+    "line": "Last one, quickly. For self-checkout lanes, should supermarkets enforce a strict item limit or keep them open to everyone? Which policy is better?",
+    "said": "Last one, quickly. For self-checkout lanes, should supermarkets enforce a strict item limit or keep them open to everyone? Which policy is better?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/4",
+    "line": "First question. Should supermarkets offer a small discount to shoppers who scan their own groceries instead of using cashiers? Good idea or not?",
+    "said": "First question. Should supermarkets offer a small discount to shoppers who scan their own groceries instead of using cashiers? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/5",
+    "line": "Second question. When queues build up, should stores open another staffed lane or add more assistants to the self-checkout area? Which would you pick?",
+    "said": "Second question. When queues build up, should stores open another staffed lane or add more assistants to the self-checkout area? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "02-supermarket-checkout/6",
+    "line": "Last one, quickly. Will self-checkout make supermarkets feel less friendly for older shoppers, or will they soon get used to it? What's more likely?",
+    "said": "Last one, quickly. Will self-checkout make supermarkets feel less friendly for older shoppers, or will they soon get used to it? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/7",
+    "line": "First question. On a crowded train, should parents hand a restless toddler a phone to keep them quiet? Good idea or bad idea?",
+    "said": "First question. On a crowded train, should parents hand a restless toddler a phone to keep them quiet? Good idea or bad idea?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/8",
+    "line": "Second question. If transit systems install free high-speed Wi-Fi in every train, will it make morning commutes more relaxing or more stressful? What's your read?",
+    "said": "Second question. If transit systems install free high-speed Wi-Fi in every train, will it make morning commutes more relaxing or more stressful? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/1",
+    "line": "First question. Some cities want to ban all phone calls on commuter trains to keep them quiet. Good idea or going too far?",
+    "said": "First question. Some cities want to ban all phone calls on commuter trains to keep them quiet. Good idea or going too far?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/2",
+    "line": "Second question. Should train companies post live delay updates on carriage screens, or only send them to passengers' phones? Which would you pick?",
+    "said": "Second question. Should train companies post live delay updates on carriage screens, or only send them to passengers' phones? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/3",
+    "line": "Last one, quickly. Does wearing noise-cancelling headphones in public make people less safe, or is the risk exaggerated? What's your take?",
+    "said": "Last one, quickly. Does wearing noise-cancelling headphones in public make people less safe, or is the risk exaggerated? What's your take?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/4",
+    "line": "First question. Should commuter trains offer a cheaper fare to anyone who travels outside rush hour? Good idea or not?",
+    "said": "First question. Should commuter trains offer a cheaper fare to anyone who travels outside rush hour? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/5",
+    "line": "Second question. Paying for the train: tap your phone at the gate, or carry a paper season ticket? Which would you go for?",
+    "said": "Second question. Paying for the train: tap your phone at the gate, or carry a paper season ticket? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "03-metro-carriage/6",
+    "line": "Last one, quickly. Will working from home a few days a week make morning trains pleasant again, or will they stay just as packed? What's more likely?",
+    "said": "Last one, quickly. Will working from home a few days a week make morning trains pleasant again, or will they stay just as packed? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/7",
+    "line": "First question. Is paying twice the supermarket price for market produce worth it to you? What's your call?",
+    "said": "First question. Is paying twice the supermarket price for market produce worth it to you? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/8",
+    "line": "Second question. If the market started home delivery, would you still go in person on Sundays? What's your read?",
+    "said": "Second question. If the market started home delivery, would you still go in person on Sundays? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/1",
+    "line": "First question. Would you get up early on a Sunday just to beat the crowds at a busy market? Yes or no?",
+    "said": "First question. Would you get up early on a Sunday just to beat the crowds at a busy market? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/2",
+    "line": "Second question. Would you buy a vegetable you've never cooked before just because the seller recommends it? Yes or no?",
+    "said": "Second question. Would you buy a vegetable you've never cooked before just because the seller recommends it? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/3",
+    "line": "Last one, quickly. Would you keep going to a market you love if it got so popular you had to queue at every stall?",
+    "said": "Last one, quickly. Would you keep going to a market you love if it got so popular you had to queue at every stall?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/4",
+    "line": "First question. When you shop, do you enjoy chatting with the sellers, or would you rather just pay and go? Which is more you?",
+    "said": "First question. When you shop, do you enjoy chatting with the sellers, or would you rather just pay and go? Which is more you?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/5",
+    "line": "Second question. Do you plan your meals first and shop from a list, or buy what looks good and cook around it? Which do you prefer?",
+    "said": "Second question. Do you plan your meals first and shop from a list, or buy what looks good and cook around it? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "04-weekend-farmers-market/6",
+    "line": "Last one, quickly. Sunday morning out at a busy market, or a slow breakfast at home — which would you pick?",
+    "said": "Last one, quickly. Sunday morning out at a busy market, or a slow breakfast at home — which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/7",
+    "line": "First question. The school plans to stagger start times by year group, ten minutes apart. Will that really calm the morning rush?",
+    "said": "First question. The school plans to stagger start times by year group, ten minutes apart. Will that really calm the morning rush?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/8",
+    "line": "Second question. If the school gave small rewards to children who walk or cycle, would it change family habits for good, or only for a few weeks?",
+    "said": "Second question. If the school gave small rewards to children who walk or cycle, would it change family habits for good, or only for a few weeks?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/1",
+    "line": "First question. The school wants to close the street outside the gate to cars for 20 minutes at drop-off. Good idea or not?",
+    "said": "First question. The school wants to close the street outside the gate to cars for 20 minutes at drop-off. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/2",
+    "line": "Second question. Should the school lock the gate at 8:30 sharp, so late children have to sign in at the office?",
+    "said": "Second question. Should the school lock the gate at 8:30 sharp, so late children have to sign in at the office?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/3",
+    "line": "Last one, quickly. Should children aged nine and up be allowed to walk to school on their own? What's your call?",
+    "said": "Last one, quickly. Should children aged nine and up be allowed to walk to school on their own? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/1",
+    "line": "First question. Your building wants a locked parcel room that residents open with a code. Good idea or not?",
+    "said": "First question. Your building wants a locked parcel room that residents open with a code. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/2",
+    "line": "Second question. Should the residents' committee fine neighbours who leave rubbish in the hallway? Yes or no?",
+    "said": "Second question. Should the residents' committee fine neighbours who leave rubbish in the hallway? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/3",
+    "line": "Last one, quickly. Your building wants quiet hours from 9 at night, weekends included — no drilling, music or parties. Good idea or going too far?",
+    "said": "Last one, quickly. Your building wants quiet hours from 9 at night, weekends included — no drilling, music or parties. Good idea or going too far?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/4",
+    "line": "First question. At drop-off, should parents say goodbye at the gate or walk their children right into the classroom? Which would you go for?",
+    "said": "First question. At drop-off, should parents say goodbye at the gate or walk their children right into the classroom? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/5",
+    "line": "Second question. To cut the morning traffic, should the school start a walking group led by parents, or run a small school bus? Which would you pick?",
+    "said": "Second question. To cut the morning traffic, should the school start a walking group led by parents, or run a small school bus? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "05-school-gate/6",
+    "line": "Last one, quickly. Should the school let parents wait in the playground at pick-up, or keep them outside the gate? Which works better?",
+    "said": "Last one, quickly. Should the school let parents wait in the playground at pick-up, or keep them outside the gate? Which works better?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/7",
+    "line": "First question. Your building is thinking about a caretaker who lives on site. Is it worth it, or would a weekly visit do?",
+    "said": "First question. Your building is thinking about a caretaker who lives on site. Is it worth it, or would a weekly visit do?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/8",
+    "line": "Second question. If the lobby got a shared shelf where neighbours swap books and household items, would people actually use it? What's your read?",
+    "said": "Second question. If the lobby got a shared shelf where neighbours swap books and household items, would people actually use it? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/4",
+    "line": "First question. The lift keeps breaking. Repair it once more, or replace it even if that means a month on the stairs? Which would you vote for?",
+    "said": "First question. The lift keeps breaking. Repair it once more, or replace it even if that means a month on the stairs? Which would you vote for?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/5",
+    "line": "Second question. Should residents raise problems in a building group chat, or only at a monthly meeting in the lobby? Which works better?",
+    "said": "Second question. Should residents raise problems in a building group chat, or only at a monthly meeting in the lobby? Which works better?",
+    "verbatim": true
+  },
+  {
+    "id": "06-apartment-lobby/6",
+    "line": "Last one, quickly. A neighbour plays loud music late at night. Would you knock on their door yourself or ask the building manager to handle it?",
+    "said": "Last one, quickly. A neighbour plays loud music late at night. Would you knock on their door yourself or ask the building manager to handle it?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/1",
+    "line": "First question. The gym wants a 20-minute limit on treadmills at peak hours. Good idea or not?",
+    "said": "First question. The gym wants a 20-minute limit on treadmills at peak hours. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/2",
+    "line": "Second question. Should the gym ban phones on the workout floor, so nobody holds a machine while scrolling? What's your call?",
+    "said": "Second question. Should the gym ban phones on the workout floor, so nobody holds a machine while scrolling? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/3",
+    "line": "Last one, quickly. Should a small neighbourhood gym stay open 24 hours, with no staff overnight? Good idea or not?",
+    "said": "Last one, quickly. Should a small neighbourhood gym stay open 24 hours, with no staff overnight? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/7",
+    "line": "First question. The gym will raise everyone's fee to include group classes, even for members who only use the machines. Fair or not?",
+    "said": "First question. The gym will raise everyone's fee to include group classes, even for members who only use the machines. Fair or not?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/8",
+    "line": "Second question. If the gym showed live crowd levels on its website, would people really spread out, or would peak hour stay just as busy?",
+    "said": "Second question. If the gym showed live crowd levels on its website, would people really spread out, or would peak hour stay just as busy?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/4",
+    "line": "First question. At 7 in the morning, would you wait 15 minutes for the squat rack or change your workout and come back to it?",
+    "said": "First question. At 7 in the morning, would you wait 15 minutes for the squat rack or change your workout and come back to it?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/5",
+    "line": "Second question. The gym has one spare room: more treadmills or a small studio for group classes? Which would you pick?",
+    "said": "Second question. The gym has one spare room: more treadmills or a small studio for group classes? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "07-neighbourhood-gym/6",
+    "line": "Last one, quickly. Should the gym play loud upbeat music, or keep it quiet and let people use their own headphones? Which would you go for?",
+    "said": "Last one, quickly. Should the gym play loud upbeat music, or keep it quiet and let people use their own headphones? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/1",
+    "line": "First question. Should the family keep Grandma's 80th birthday party a surprise? Good idea or not?",
+    "said": "First question. Should the family keep Grandma's 80th birthday party a surprise? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/2",
+    "line": "Second question. Should the family hire a photographer for Grandma's 80th? Good idea or not?",
+    "said": "Second question. Should the family hire a photographer for Grandma's 80th? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/3",
+    "line": "Last one, quickly. Should the family ask guests not to bring gifts to Grandma's 80th? Yes or no?",
+    "said": "Last one, quickly. Should the family ask guests not to bring gifts to Grandma's 80th? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/7",
+    "line": "First question. One idea is a big party for Grandma with 60 guests. Will she really enjoy it, or find it tiring?",
+    "said": "First question. One idea is a big party for Grandma with 60 guests. Will she really enjoy it, or find it tiring?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/8",
+    "line": "Second question. The family is using a shared online list to split the cooking and jobs for Grandma's party. Will it help, or cause more arguments?",
+    "said": "Second question. The family is using a shared online list to split the cooking and jobs for Grandma's party. Will it help, or cause more arguments?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/4",
+    "line": "First question. For Grandma's 80th, a restaurant meal or a home-cooked lunch with the whole family? Which would you go for?",
+    "said": "First question. For Grandma's 80th, a restaurant meal or a home-cooked lunch with the whole family? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/5",
+    "line": "Second question. Should Grandma's party be a long lunch or a dinner that runs into the evening? Which would you pick?",
+    "said": "Second question. Should Grandma's party be a long lunch or a dinner that runs into the evening? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "08-birthday-dinner/6",
+    "line": "Last one, quickly. Should the grandchildren give speeches at Grandma's party, or put together a photo slideshow instead? Which would you choose?",
+    "said": "Last one, quickly. Should the grandchildren give speeches at Grandma's party, or put together a photo slideshow instead? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/7",
+    "line": "First question. The park plans to remove its bins and ask people to take their rubbish home. Will it work?",
+    "said": "First question. The park plans to remove its bins and ask people to take their rubbish home. Will it work?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/8",
+    "line": "Second question. If the park added free outdoor gym machines, would people actually use them, or would they sit empty? What's your read?",
+    "said": "Second question. If the park added free outdoor gym machines, would people actually use them, or would they sit empty? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/1",
+    "line": "First question. The city wants dogs on the lead everywhere in the park, all day. Good idea or going too far?",
+    "said": "First question. The city wants dogs on the lead everywhere in the park, all day. Good idea or going too far?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/2",
+    "line": "Second question. Should the park ban barbecues on the main lawn at weekends? Good idea or not?",
+    "said": "Second question. Should the park ban barbecues on the main lawn at weekends? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/3",
+    "line": "Last one, quickly. Should food trucks be allowed inside the park, not just at the gate? What's your call?",
+    "said": "Last one, quickly. Should food trucks be allowed inside the park, not just at the gate? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/4",
+    "line": "First question. The park has room for one new thing: a bigger playground or a fenced dog area. Which would you go for?",
+    "said": "First question. The park has room for one new thing: a bigger playground or a fenced dog area. Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/5",
+    "line": "Second question. Should the city park close at sunset, or stay open with lights until 10 at night? Which would you pick?",
+    "said": "Second question. Should the city park close at sunset, or stay open with lights until 10 at night? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "09-city-park/6",
+    "line": "Last one, quickly. On a sunny Sunday, would you picnic on the busy main lawn or walk 20 minutes to a quieter corner? Which would you choose?",
+    "said": "Last one, quickly. On a sunny Sunday, would you picnic on the busy main lawn or walk 20 minutes to a quieter corner? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/7",
+    "line": "First question. The airline says your delayed flight leaves in 30 minutes, but the plane isn't there yet. Is it worth queuing now to rebook?",
+    "said": "First question. The airline says your delayed flight leaves in 30 minutes, but the plane isn't there yet. Is it worth queuing now to rebook?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/8",
+    "line": "Second question. If gate screens explained the real reason for every delay, would passengers be calmer or just more annoyed? What's more likely?",
+    "said": "Second question. If gate screens explained the real reason for every delay, would passengers be calmer or just more annoyed? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/1",
+    "line": "First question. Should airlines give delayed passengers meal vouchers, even if it means slightly higher fares for everyone? Good idea or not?",
+    "said": "First question. Should airlines give delayed passengers meal vouchers, even if it means slightly higher fares for everyone? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/2",
+    "line": "Second question. Should the airline let passengers with tight connections skip the queue at the desk? What's your call?",
+    "said": "Second question. Should the airline let passengers with tight connections skip the queue at the desk? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/3",
+    "line": "Last one, quickly. The flight is overbooked. Would you give up your seat for a free hotel night and a seat tomorrow? What's your call?",
+    "said": "Last one, quickly. The flight is overbooked. Would you give up your seat for a free hotel night and a seat tomorrow? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/4",
+    "line": "First question. Should the airline send one message when the new time is certain, or an update every 20 minutes even with no news? Which would you prefer?",
+    "said": "First question. Should the airline send one message when the new time is certain, or an update every 20 minutes even with no news? Which would you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/5",
+    "line": "Second question. Your flight is delayed two hours. Would you stay at the gate or find a restaurant across the terminal? Which would you do?",
+    "said": "Second question. Your flight is delayed two hours. Would you stay at the gate or find a restaurant across the terminal? Which would you do?",
+    "verbatim": true
+  },
+  {
+    "id": "10-airport-gate/6",
+    "line": "Last one, quickly. The airport can add only one thing at busy gates: more charging points or more seats. Which would you pick?",
+    "said": "Last one, quickly. The airport can add only one thing at busy gates: more charging points or more seats. Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/7",
+    "line": "First question. If parents cut their own screen time, will their kids follow, or just carry on as usual? What's more likely?",
+    "said": "First question. If parents cut their own screen time, will their kids follow, or just carry on as usual? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/8",
+    "line": "Second question. Will kids who grow up with a screen at every meal find it harder to hold a conversation as adults? What's your read?",
+    "said": "Second question. Will kids who grow up with a screen at every meal find it harder to hold a conversation as adults? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/1",
+    "line": "First question. Should families have a rule that all phones go in a basket during dinner? Good idea or not?",
+    "said": "First question. Should families have a rule that all phones go in a basket during dinner? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/2",
+    "line": "Second question. A parent wants to switch off the home Wi-Fi at 10 every night, for adults too. Good idea or not?",
+    "said": "Second question. A parent wants to switch off the home Wi-Fi at 10 every night, for adults too. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/3",
+    "line": "Last one, quickly. Should parents be able to check everything their 14-year-old does on their phone? Yes or no — what's your call?",
+    "said": "Last one, quickly. Should parents be able to check everything their 14-year-old does on their phone? Yes or no — what's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/4",
+    "line": "First question. Sunday evening at home: everyone on their own screen in the same room, or one film the whole family watches together? Which would you go for?",
+    "said": "First question. Sunday evening at home: everyone on their own screen in the same room, or one film the whole family watches together? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/5",
+    "line": "Second question. Should a family share one tablet the kids take turns on, or give each child their own? Which would you pick?",
+    "said": "Second question. Should a family share one tablet the kids take turns on, or give each child their own? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "11-family-screens/6",
+    "line": "Last one, quickly. For a 10-year-old, a strict daily screen-time limit, or no limit but screens only in shared rooms? Which works better?",
+    "said": "Last one, quickly. For a 10-year-old, a strict daily screen-time limit, or no limit but screens only in shared rooms? Which works better?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/7",
+    "line": "First question. In 10 years, will people still go out to buy dinner, or will almost everything come to the door? What's more likely?",
+    "said": "First question. In 10 years, will people still go out to buy dinner, or will almost everything come to the door? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/8",
+    "line": "Second question. Is next-day delivery worth paying a little extra for, or does waiting a few days hardly matter? Is it worth it?",
+    "said": "Second question. Is next-day delivery worth paying a little extra for, or does waiting a few days hardly matter? Is it worth it?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/1",
+    "line": "First question. Should couriers just leave parcels on the doorstep when nobody's home, instead of taking them back? Yes or no?",
+    "said": "First question. Should couriers just leave parcels on the doorstep when nobody's home, instead of taking them back? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/2",
+    "line": "Second question. The council wants a strict speed limit for e-bikes on residential streets, delivery riders included. Good idea or not?",
+    "said": "Second question. The council wants a strict speed limit for e-bikes on residential streets, delivery riders included. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/3",
+    "line": "Last one, quickly. Should small delivery robots be allowed on the pavement in residential streets? What's your call?",
+    "said": "Last one, quickly. Should small delivery robots be allowed on the pavement in residential streets? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/4",
+    "line": "First question. Dinner on a weeknight: order it to your door, or walk 10 minutes and pick it up yourself? Which would you go for?",
+    "said": "First question. Dinner on a weeknight: order it to your door, or walk 10 minutes and pick it up yourself? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/5",
+    "line": "Second question. When you order online, several small deliveries as items are ready, or wait and get everything in one box? Which would you pick?",
+    "said": "Second question. When you order online, several small deliveries as items are ready, or wait and get everything in one box? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "12-delivery-street/6",
+    "line": "Last one, quickly. Should parcels for a whole street go to one local locker, or to each front door? Which should a neighbourhood prefer?",
+    "said": "Last one, quickly. Should parcels for a whole street go to one local locker, or to each front door? Which should a neighbourhood prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/7",
+    "line": "First question. Will kids who grow up reading on screens ever enjoy paper books as much as their parents did? What's more likely?",
+    "said": "First question. Will kids who grow up reading on screens ever enjoy paper books as much as their parents did? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/8",
+    "line": "Second question. Is a library full of people on laptops, but with nobody at the bookshelves, still doing its job? What's your take?",
+    "said": "Second question. Is a library full of people on laptops, but with nobody at the bookshelves, still doing its job? What's your take?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/4",
+    "line": "First question. For a long day of focused work on your laptop, the public library or a coffee shop? Which would you choose?",
+    "said": "First question. For a long day of focused work on your laptop, the public library or a coffee shop? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/5",
+    "line": "Second question. Should libraries keep a quiet rule everywhere, or allow talking on one floor? Which would you go for?",
+    "said": "Second question. Should libraries keep a quiet rule everywhere, or allow talking on one floor? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/6",
+    "line": "Last one, quickly. Should a library spend its money on more e-books people borrow from home, or on keeping the building open longer? Which would you pick?",
+    "said": "Last one, quickly. Should a library spend its money on more e-books people borrow from home, or on keeping the building open longer? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/1",
+    "line": "First question. Should libraries put a time limit on the charging tables so more people get a turn? Good idea or not?",
+    "said": "First question. Should libraries put a time limit on the charging tables so more people get a turn? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/2",
+    "line": "Second question. Should libraries let people eat and drink anywhere inside, not just in the café? Good idea or not?",
+    "said": "Second question. Should libraries let people eat and drink anywhere inside, not just in the café? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "13-public-library/3",
+    "line": "Last one, quickly. Should libraries let people book a desk online in advance, even if walk-in visitors sometimes find nothing free? Good idea or not?",
+    "said": "Last one, quickly. Should libraries let people book a desk online in advance, even if walk-in visitors sometimes find nothing free? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/7",
+    "line": "First question. In 10 years, will most homes have a speaker that's always listening, or will people turn against them? What's more likely?",
+    "said": "First question. In 10 years, will most homes have a speaker that's always listening, or will people turn against them? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/8",
+    "line": "Second question. Do devices that do things by themselves make people more relaxed at home, or just more dependent? What's your read?",
+    "said": "Second question. Do devices that do things by themselves make people more relaxed at home, or just more dependent? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/1",
+    "line": "First question. Your flatmate wants a camera doorbell that records everyone who comes to your door. Good idea or not?",
+    "said": "First question. Your flatmate wants a camera doorbell that records everyone who comes to your door. Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/2",
+    "line": "Second question. Should landlords be allowed to fit a listening smart speaker in flats they rent out furnished? Good idea or not?",
+    "said": "Second question. Should landlords be allowed to fit a listening smart speaker in flats they rent out furnished? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/3",
+    "line": "Last one, quickly. Should new flats come fitted with smart lights, heating and locks as standard? Good idea or not?",
+    "said": "Last one, quickly. Should new flats come fitted with smart lights, heating and locks as standard? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/4",
+    "line": "First question. Lights that switch on by themselves when you walk in, or a plain switch by the door? Which would you choose?",
+    "said": "First question. Lights that switch on by themselves when you walk in, or a plain switch by the door? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/5",
+    "line": "Second question. Opening your front door with your phone, or with an ordinary key? Which would you trust more?",
+    "said": "Second question. Opening your front door with your phone, or with an ordinary key? Which would you trust more?",
+    "verbatim": true
+  },
+  {
+    "id": "14-smart-flat/6",
+    "line": "Last one, quickly. A smart home that's very convenient but stops working when the Wi-Fi drops, or a simpler one that always works? Which would you pick?",
+    "said": "Last one, quickly. A smart home that's very convenient but stops working when the Wi-Fi drops, or a simpler one that always works? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/7",
+    "line": "First question. Will shared e-scooters really get people out of their cars, or mostly replace walking? What's more likely?",
+    "said": "First question. Will shared e-scooters really get people out of their cars, or mostly replace walking? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/8",
+    "line": "Second question. Will shared e-scooters still be on city streets in 10 years, or will most cities give up on them? What's more likely?",
+    "said": "Second question. Will shared e-scooters still be on city streets in 10 years, or will most cities give up on them? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/4",
+    "line": "First question. A 15-minute trip across town: a shared e-scooter or the bus? Which would you go for?",
+    "said": "First question. A 15-minute trip across town: a shared e-scooter or the bus? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/5",
+    "line": "Second question. If a city could keep only one, shared bikes or shared e-scooters? Which should it keep?",
+    "said": "Second question. If a city could keep only one, shared bikes or shared e-scooters? Which should it keep?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/6",
+    "line": "Last one, quickly. Own your own bike, or just unlock a shared one whenever you need it? Which would you pick?",
+    "said": "Last one, quickly. Own your own bike, or just unlock a shared one whenever you need it? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/1",
+    "line": "First question. Should shared e-scooters only be parked in marked bays, even if the nearest bay is a few minutes' walk away? Good idea or not?",
+    "said": "First question. Should shared e-scooters only be parked in marked bays, even if the nearest bay is a few minutes' walk away? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/2",
+    "line": "Second question. Should shared e-scooters be banned from the city centre during rush hour? Good idea or not?",
+    "said": "Second question. Should shared e-scooters be banned from the city centre during rush hour? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "15-scooter-square/3",
+    "line": "Last one, quickly. Should riders have to wear a helmet on shared e-scooters, even if that means fewer people use them? Yes or no?",
+    "said": "Last one, quickly. Should riders have to wear a helmet on shared e-scooters, even if that means fewer people use them? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/7",
+    "line": "First question. If you're not enjoying a book, is it worth it to you to finish it anyway, or do you stop halfway? What's your call?",
+    "said": "First question. If you're not enjoying a book, is it worth it to you to finish it anyway, or do you stop halfway? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/8",
+    "line": "Second question. Would you read more books if you read for 20 minutes every day instead of in long weekend sessions? What's your read?",
+    "said": "Second question. Would you read more books if you read for 20 minutes every day instead of in long weekend sessions? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/1",
+    "line": "First question. Would you buy a book just because it's on a shop's staff picks shelf? Yes or no?",
+    "said": "First question. Would you buy a book just because it's on a shop's staff picks shelf? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/2",
+    "line": "Second question. Would you buy a second-hand book with someone else's notes scribbled in the margins? Yes or no?",
+    "said": "Second question. Would you buy a second-hand book with someone else's notes scribbled in the margins? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/3",
+    "line": "Last one, quickly. Would you join a monthly book club full of people you've never met? Yes or no — and why?",
+    "said": "Last one, quickly. Would you join a monthly book club full of people you've never met? Yes or no — and why?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/4",
+    "line": "First question. Paper books or e-books — which do you prefer for reading at home?",
+    "said": "First question. Paper books or e-books — which do you prefer for reading at home?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/5",
+    "line": "Second question. When you pick your next book, do you trust friends' recommendations or your own browsing more? Which works better for you?",
+    "said": "Second question. When you pick your next book, do you trust friends' recommendations or your own browsing more? Which works better for you?",
+    "verbatim": true
+  },
+  {
+    "id": "16-second-hand-bookshop/6",
+    "line": "Last one, quickly. Once you've finished a book, would you rather keep it on your shelf or give it away? Which do you prefer?",
+    "said": "Last one, quickly. Once you've finished a book, would you rather keep it on your shelf or give it away? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/7",
+    "line": "First question. Is a 6 a.m. flight worth it to you for an extra half day at your destination? What's your call?",
+    "said": "First question. Is a 6 a.m. flight worth it to you for an extra half day at your destination? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/8",
+    "line": "Second question. When you travel with friends, would the trip go better if one person made all the decisions? What's your read?",
+    "said": "Second question. When you travel with friends, would the trip go better if one person made all the decisions? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/1",
+    "line": "First question. Would you go on a week-long holiday with a close friend and share a room the whole time? Yes or no?",
+    "said": "First question. Would you go on a week-long holiday with a close friend and share a room the whole time? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/2",
+    "line": "Second question. Would you switch off your work email completely for a week's holiday? Yes or no?",
+    "said": "Second question. Would you switch off your work email completely for a week's holiday? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/3",
+    "line": "Last one, quickly. Would you go on holiday with no fixed plan, booking each night's stay as you go? Yes or no — and why?",
+    "said": "Last one, quickly. Would you go on holiday with no fixed plan, booking each night's stay as you go? Yes or no — and why?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/7",
+    "line": "First question. If you ate the same breakfast every weekday, would your mornings get easier or just duller? What's your read?",
+    "said": "First question. If you ate the same breakfast every weekday, would your mornings get easier or just duller? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/8",
+    "line": "Second question. Would you give up your alarm and wake up naturally, even if some days you started later? Is it worth it to you?",
+    "said": "Second question. Would you give up your alarm and wake up naturally, even if some days you started later? Is it worth it to you?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/4",
+    "line": "First question. For a week away, a beach and lots of rest or a city full of sightseeing — which do you prefer?",
+    "said": "First question. For a week away, a beach and lots of rest or a city full of sightseeing — which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/5",
+    "line": "Second question. Do you prefer to plan a trip with a paper map and a guidebook, or entirely on your phone? Which works for you?",
+    "said": "Second question. Do you prefer to plan a trip with a paper map and a guidebook, or entirely on your phone? Which works for you?",
+    "verbatim": true
+  },
+  {
+    "id": "17-holiday-planning/6",
+    "line": "Last one, quickly. Would you rather take one long holiday a year or several short weekend trips? Which would you go for?",
+    "said": "Last one, quickly. Would you rather take one long holiday a year or several short weekend trips? Which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/1",
+    "line": "First question. Would you lay out tomorrow's clothes and breakfast the night before? Good idea for you or not?",
+    "said": "First question. Would you lay out tomorrow's clothes and breakfast the night before? Good idea for you or not?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/2",
+    "line": "Second question. Would you skip the news completely on weekday mornings? Yes or no?",
+    "said": "Second question. Would you skip the news completely on weekday mornings? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/3",
+    "line": "Last one, quickly. Would you get up an hour earlier every day if it gave you a quiet hour to yourself? Yes or no?",
+    "said": "Last one, quickly. Would you get up an hour earlier every day if it gave you a quiet hour to yourself? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/4",
+    "line": "First question. Do you prefer to exercise in the morning before work or in the evening after? Which suits you better?",
+    "said": "First question. Do you prefer to exercise in the morning before work or in the evening after? Which suits you better?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/5",
+    "line": "Second question. Coffee made at home before work, or one bought on the way — which do you prefer?",
+    "said": "Second question. Coffee made at home before work, or one bought on the way — which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "18-early-kitchen/6",
+    "line": "Last one, quickly. On a weekday morning, would you rather check your messages first thing or wait until you start work? Which do you prefer?",
+    "said": "Last one, quickly. On a weekday morning, would you rather check your messages first thing or wait until you start work? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/1",
+    "line": "First question. Would you ask your guests to take their shoes off at your place? Yes or no?",
+    "said": "First question. Would you ask your guests to take their shoes off at your place? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/2",
+    "line": "Second question. Would you bring a dish you made yourself, rather than a bought one, to a friend's dinner? Yes or no?",
+    "said": "Second question. Would you bring a dish you made yourself, rather than a bought one, to a friend's dinner? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/3",
+    "line": "Last one, quickly. Would you invite friends who don't know each other to the same dinner? Good idea or not?",
+    "said": "Last one, quickly. Would you invite friends who don't know each other to the same dinner? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/7",
+    "line": "First question. When a friendly debate starts at the table, is it worth jumping in, or better to keep the peace? What's your call?",
+    "said": "First question. When a friendly debate starts at the table, is it worth jumping in, or better to keep the peace? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/8",
+    "line": "Second question. Is cooking everything yourself for eight guests worth it to you, or does it spoil your own evening? What's your read?",
+    "said": "Second question. Is cooking everything yourself for eight guests worth it to you, or does it spoil your own evening? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/7",
+    "line": "First question. Is it worth it to you to stick with a hobby you're bad at for months before it gets fun? What's your call?",
+    "said": "First question. Is it worth it to you to stick with a hobby you're bad at for months before it gets fun? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/8",
+    "line": "Second question. If you joined a weekly evening class, would you still be going after three months? What's your honest read?",
+    "said": "Second question. If you joined a weekly evening class, would you still be going after three months? What's your honest read?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/4",
+    "line": "First question. Would you rather host friends for dinner at home or meet them at a restaurant? Which do you prefer?",
+    "said": "First question. Would you rather host friends for dinner at home or meet them at a restaurant? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/5",
+    "line": "Second question. At a dinner party, do you prefer one big conversation with the whole table or small chats with the people next to you?",
+    "said": "Second question. At a dinner party, do you prefer one big conversation with the whole table or small chats with the people next to you?",
+    "verbatim": true
+  },
+  {
+    "id": "19-dinner-party/6",
+    "line": "Last one, quickly. For a dinner with eight people, a seating plan or everyone sits where they like — which would you go for?",
+    "said": "Last one, quickly. For a dinner with eight people, a seating plan or everyone sits where they like — which would you go for?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/1",
+    "line": "First question. Would you sign up for an evening class in something you've never tried before? Yes or no?",
+    "said": "First question. Would you sign up for an evening class in something you've never tried before? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/2",
+    "line": "Second question. Would you keep a wonky bowl you made yourself and actually use it at home? Yes or no?",
+    "said": "Second question. Would you keep a wonky bowl you made yourself and actually use it at home? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/3",
+    "line": "Last one, quickly. Would you show your first clumsy attempts at a new hobby to your friends? Yes or no — and why?",
+    "said": "Last one, quickly. Would you show your first clumsy attempts at a new hobby to your friends? Yes or no — and why?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/4",
+    "line": "First question. Would you rather learn a new skill in a class with others or alone from online videos? Which do you prefer?",
+    "said": "First question. Would you rather learn a new skill in a class with others or alone from online videos? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/5",
+    "line": "Second question. Would you rather take a class with a friend or go alone and meet new people? Which would you pick?",
+    "said": "Second question. Would you rather take a class with a friend or go alone and meet new people? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "20-pottery-class/6",
+    "line": "Last one, quickly. After a long workday, would you rather spend the evening learning something new or resting at home? Which do you prefer?",
+    "said": "Last one, quickly. After a long workday, would you rather spend the evening learning something new or resting at home? Which do you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/7",
+    "line": "First question. Should a delivery app automatically refund the delivery fee when food arrives more than 20 minutes late? Yes or no?",
+    "said": "First question. Should a delivery app automatically refund the delivery fee when food arrives more than 20 minutes late? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/8",
+    "line": "Second question. If a delivery app shows honest wait times even when they're long, will people trust it more or just order elsewhere? What's more likely?",
+    "said": "Second question. If a delivery app shows honest wait times even when they're long, will people trust it more or just order elsewhere? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/4",
+    "line": "First question. Will a free-delivery subscription save people money, or just make them order more than they need? What's more likely?",
+    "said": "First question. Will a free-delivery subscription save people money, or just make them order more than they need? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/5",
+    "line": "Second question. Should a delivery app ask for the rider's tip when you order, or after the food arrives? Which would you choose?",
+    "said": "Second question. Should a delivery app ask for the rider's tip when you order, or after the food arrives? Which would you choose?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/6",
+    "line": "Last one, quickly. Should a delivery app show the rider moving on a live map, or just a simple arrival time? Which design is better?",
+    "said": "Last one, quickly. Should a delivery app show the rider moving on a live map, or just a simple arrival time? Which design is better?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/1",
+    "line": "First question. At busy times, should a delivery app add a surge fee, or keep one price and let the wait grow longer? Which would you rather have?",
+    "said": "First question. At busy times, should a delivery app add a surge fee, or keep one price and let the wait grow longer? Which would you rather have?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/2",
+    "line": "Second question. Should a delivery app let you hide restaurants you never order from? Good idea or not?",
+    "said": "Second question. Should a delivery app let you hide restaurants you never order from? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "21-delivery-app/3",
+    "line": "Last one, quickly. When the wait is 50 minutes, should a delivery app suggest nearby restaurants that can deliver faster? Good idea or not?",
+    "said": "Last one, quickly. When the wait is 50 minutes, should a delivery app suggest nearby restaurants that can deliver faster? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/7",
+    "line": "First question. Should a streaming app pause your subscription automatically if you haven't watched anything for two months? Good idea or not?",
+    "said": "First question. Should a streaming app pause your subscription automatically if you haven't watched anything for two months? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/8",
+    "line": "Second question. Will showing what your friends are watching help people choose faster, or just make the scrolling worse? What's more likely?",
+    "said": "Second question. Will showing what your friends are watching help people choose faster, or just make the scrolling worse? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/1",
+    "line": "First question. Should streaming apps stop auto-playing trailers while you're just browsing? Good idea or not?",
+    "said": "First question. Should streaming apps stop auto-playing trailers while you're just browsing? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/2",
+    "line": "Second question. Would a 'just pick a film for us' button on a streaming app actually help a couple who can't decide? What's your read?",
+    "said": "Second question. Would a 'just pick a film for us' button on a streaming app actually help a couple who can't decide? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/3",
+    "line": "Last one, quickly. Should a streaming app offer a cheaper plan with ads, or one ad-free price only? Which would you rather use?",
+    "said": "Last one, quickly. Should a streaming app offer a cheaper plan with ads, or one ad-free price only? Which would you rather use?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/4",
+    "line": "First question. Should a streaming app show the full catalogue, or only ten hand-picked films each night? Which would you rather use?",
+    "said": "First question. Should a streaming app show the full catalogue, or only ten hand-picked films each night? Which would you rather use?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/5",
+    "line": "Second question. Should cancelling a streaming subscription take one tap, even if people then cancel by accident and lose their watch history? Good idea or not?",
+    "said": "Second question. Should cancelling a streaming subscription take one tap, even if people then cancel by accident and lose their watch history? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "22-streaming-sofa/6",
+    "line": "Last one, quickly. For a shared account, should a streaming app give everyone separate profiles, or one shared home screen for the household? Which works better?",
+    "said": "Last one, quickly. For a shared account, should a streaming app give everyone separate profiles, or one shared home screen for the household? Which works better?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/7",
+    "line": "First question. Will a 'focus hours' feature that blocks chat pings for two hours a day really help people get more done? What's your read?",
+    "said": "First question. Will a 'focus hours' feature that blocks chat pings for two hours a day really help people get more done? What's your read?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/8",
+    "line": "Second question. If a chat app shows everyone as 'active' or 'away', will people feel pressure to look online all day? What's more likely?",
+    "said": "Second question. If a chat app shows everyone as 'active' or 'away', will people feel pressure to look online all day? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/1",
+    "line": "First question. Should a team chat tool hide read receipts by default? Good idea or not?",
+    "said": "First question. Should a team chat tool hide read receipts by default? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/2",
+    "line": "Second question. Should team chat notifications be off by default outside working hours, or left to each person? Which would you pick?",
+    "said": "Second question. Should team chat notifications be off by default outside working hours, or left to each person? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/3",
+    "line": "Last one, quickly. Should a team chat app show how long your message has gone unanswered? Good idea or not?",
+    "said": "Last one, quickly. Should a team chat app show how long your message has gone unanswered? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/4",
+    "line": "First question. When someone is on do-not-disturb, should a chat app warn you before you message them, or deliver it quietly? Which is better?",
+    "said": "First question. When someone is on do-not-disturb, should a chat app warn you before you message them, or deliver it quietly? Which is better?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/5",
+    "line": "Second question. Should a calendar tool refuse to send a meeting invite until the agenda box is filled in? Good idea or not?",
+    "said": "Second question. Should a calendar tool refuse to send a meeting invite until the agenda box is filled in? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "23-team-chat/6",
+    "line": "Last one, quickly. Should a busy team keep most of its talk in topic channels or in direct messages? Which works better?",
+    "said": "Last one, quickly. Should a busy team keep most of its talk in topic channels or in direct messages? Which works better?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/1",
+    "line": "First question. Should an expense app reject a slightly blurry receipt photo, or accept it and let a person check later? Which is better?",
+    "said": "First question. Should an expense app reject a slightly blurry receipt photo, or accept it and let a person check later? Which is better?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/2",
+    "line": "Second question. Should an expense app have you submit each receipt as you get it, or all together after a trip? Which would you prefer?",
+    "said": "Second question. Should an expense app have you submit each receipt as you get it, or all together after a trip? Which would you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/3",
+    "line": "Last one, quickly. Should an expense app remind your manager automatically if they haven't approved your claim within three days? Yes or no?",
+    "said": "Last one, quickly. Should an expense app remind your manager automatically if they haven't approved your claim within three days? Yes or no?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/7",
+    "line": "First question. Should an expense app flag claims that look unusual, like a dinner on a Sunday, before a manager sees them? Good idea or not?",
+    "said": "First question. Should an expense app flag claims that look unusual, like a dinner on a Sunday, before a manager sees them? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/8",
+    "line": "Second question. If an expense app makes claiming almost effortless, will people start claiming small things they used to ignore? Is that a problem?",
+    "said": "Second question. If an expense app makes claiming almost effortless, will people start claiming small things they used to ignore? Is that a problem?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/4",
+    "line": "First question. Should an expense app approve small claims automatically and only send big ones to a manager? Good idea or not?",
+    "said": "First question. Should an expense app approve small claims automatically and only send big ones to a manager? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/5",
+    "line": "Second question. Should an expense app show a simple progress tracker for each claim, or just email you when it's paid? Which would you rather have?",
+    "said": "Second question. Should an expense app show a simple progress tracker for each claim, or just email you when it's paid? Which would you rather have?",
+    "verbatim": true
+  },
+  {
+    "id": "24-expense-app/6",
+    "line": "Last one, quickly. Will snapping receipts with a phone camera really save time, or will people end up fixing the details by hand anyway? What's more likely?",
+    "said": "Last one, quickly. Will snapping receipts with a phone camera really save time, or will people end up fixing the details by hand anyway? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/1",
+    "line": "First question. Would you let an AI assistant send routine replies for you without checking them first?",
+    "said": "First question. Would you let an AI assistant send routine replies for you without checking them first?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/2",
+    "line": "Second question. Should emails drafted by an AI assistant carry a small note saying so? Good idea or not?",
+    "said": "Second question. Should emails drafted by an AI assistant carry a small note saying so? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/3",
+    "line": "Last one, quickly. Should an AI assistant write a full draft for you, or just suggest the next sentence as you type? Which would you rather use?",
+    "said": "Last one, quickly. Should an AI assistant write a full draft for you, or just suggest the next sentence as you type? Which would you rather use?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/7",
+    "line": "First question. If everyone uses AI to write their emails, will emails get clearer, or just longer and less read? What's more likely?",
+    "said": "First question. If everyone uses AI to write their emails, will emails get clearer, or just longer and less read? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/8",
+    "line": "Second question. Is an AI summary of a long email thread worth using if it sometimes misses one important detail? What's your call?",
+    "said": "Second question. Is an AI summary of a long email thread worth using if it sometimes misses one important detail? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/7",
+    "line": "First question. Will AI homework helpers help students learn faster, or just make homework pointless? What's more likely?",
+    "said": "First question. Will AI homework helpers help students learn faster, or just make homework pointless? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/8",
+    "line": "Second question. Is a tool that spots chatbot-written homework worth using if it sometimes wrongly accuses honest students? What's your call?",
+    "said": "Second question. Is a tool that spots chatbot-written homework worth using if it sometimes wrongly accuses honest students? What's your call?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/4",
+    "line": "First question. Should an AI email assistant copy your own writing style, or write in a neutral, polished tone? Which is better?",
+    "said": "First question. Should an AI email assistant copy your own writing style, or write in a neutral, polished tone? Which is better?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/5",
+    "line": "Second question. Should an AI assistant ask you a couple of questions before drafting a reply, or just draft straight away? Which would you pick?",
+    "said": "Second question. Should an AI assistant ask you a couple of questions before drafting a reply, or just draft straight away? Which would you pick?",
+    "verbatim": true
+  },
+  {
+    "id": "25-ai-assistant-desk/6",
+    "line": "Last one, quickly. Should an email assistant warn you when your reply sounds rude or angry, before you hit send? Good idea or not?",
+    "said": "Last one, quickly. Should an email assistant warn you when your reply sounds rude or angry, before you hit send? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/1",
+    "line": "First question. Should a homework chatbot refuse to give students the final answer and only offer hints? Good idea or not?",
+    "said": "First question. Should a homework chatbot refuse to give students the final answer and only offer hints? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/2",
+    "line": "Second question. Should an AI homework helper show teachers a record of what each student asked it? Good idea or not?",
+    "said": "Second question. Should an AI homework helper show teachers a record of what each student asked it? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/3",
+    "line": "Last one, quickly. Should a homework chatbot explain things in a friendly, chatty way, or keep it short and to the point? Which works better for students?",
+    "said": "Last one, quickly. Should a homework chatbot explain things in a friendly, chatty way, or keep it short and to the point? Which works better for students?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/4",
+    "line": "First question. Should a homework chatbot answer in the student's home language, or only in the language the class is taught in? Which helps more?",
+    "said": "First question. Should a homework chatbot answer in the student's home language, or only in the language the class is taught in? Which helps more?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/5",
+    "line": "Second question. Should a homework chatbot have a daily time limit for students, or be available whenever they want? Which is better?",
+    "said": "Second question. Should a homework chatbot have a daily time limit for students, or be available whenever they want? Which is better?",
+    "verbatim": true
+  },
+  {
+    "id": "26-homework-room/6",
+    "line": "Last one, quickly. Should a homework chatbot remember a student's past mistakes and bring them up in later sessions? Good idea or not?",
+    "said": "Last one, quickly. Should a homework chatbot remember a student's past mistakes and bring them up in later sessions? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/7",
+    "line": "First question. Will travellers trust an AI chat agent's promise about their refund as much as a human's? What's more likely?",
+    "said": "First question. Will travellers trust an AI chat agent's promise about their refund as much as a human's? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/8",
+    "line": "Second question. Will people be more polite to AI support agents than to human staff, or less? What's more likely?",
+    "said": "Second question. Will people be more polite to AI support agents than to human staff, or less? What's more likely?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/4",
+    "line": "First question. Should an airline's AI chat agent be allowed to rebook flights and issue refunds on its own, without a human checking? Good idea or not?",
+    "said": "First question. Should an airline's AI chat agent be allowed to rebook flights and issue refunds on its own, without a human checking? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/5",
+    "line": "Second question. After a support chat, should you get the full written transcript, or a short summary of what was agreed? Which is more useful?",
+    "said": "Second question. After a support chat, should you get the full written transcript, or a short summary of what was agreed? Which is more useful?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/6",
+    "line": "Last one, quickly. Should an AI support agent apologise when things go wrong, even though it isn't a person? Good idea or not?",
+    "said": "Last one, quickly. Should an AI support agent apologise when things go wrong, even though it isn't a person? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/1",
+    "line": "First question. Should an AI support agent offer a human straight away, even if it makes the human queue much longer for everyone? Good idea or not?",
+    "said": "First question. Should an AI support agent offer a human straight away, even if it makes the human queue much longer for everyone? Good idea or not?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/2",
+    "line": "Second question. Should an AI support agent have a friendly name and personality, or act as a plain, neutral assistant? Which would you prefer?",
+    "said": "Second question. Should an AI support agent have a friendly name and personality, or act as a plain, neutral assistant? Which would you prefer?",
+    "verbatim": true
+  },
+  {
+    "id": "27-support-chat/3",
+    "line": "Last one, quickly. For a cancelled booking, would you rather wait 40 minutes for a human or sort it now with an AI chat agent? Which would you choose?",
+    "said": "Last one, quickly. For a cancelled booking, would you rather wait 40 minutes for a human or sort it now with an AI chat agent? Which would you choose?",
+    "verbatim": true
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "readMs": 5000,
+  "answers": [
+    {
+      "note": "Main question: fillers and a 3 s pause mid-Answer; the turn ends by silence",
+      "clip": "01-main-pause.wav",
+      "start": "afterPartner",
+      "delayMs": 1200,
+      "end": "silence"
+    },
+    {
+      "note": "Follow-up 1: ends with Done",
+      "clip": "02-done.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "done"
+    },
+    {
+      "note": "Follow-up 2: cuts in 1.5 s into the Partner's question, then Done",
+      "clip": "03-barge-in.wav",
+      "start": "duringPartner",
+      "delayMs": 1500,
+      "end": "done"
+    },
+    {
+      "note": "Follow-up 3: fillers and a 3 s pause; the turn ends by silence",
+      "clip": "04-filler-pause.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "silence"
+    },
+    {
+      "note": "Redo after the Coaching point: position first, then the reason; ends with Done",
+      "clip": "07-redo.wav",
+      "start": "afterPartner",
+      "delayMs": 1500,
+      "end": "done",
+      "for": "redo"
+    },
+    {
+      "note": "Round 2 Main question: fillers and a 3 s pause; ends by silence",
+      "clip": "08-r2-main.wav",
+      "start": "afterPartner",
+      "delayMs": 1200,
+      "end": "silence",
+      "round": 2
+    },
+    {
+      "note": "Round 2 Follow-up 1: ends with Done",
+      "clip": "09-r2-fu1.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "done",
+      "round": 2
+    },
+    {
+      "note": "Round 2 Follow-up 2: cuts in 1.5 s into the Partner's question, then Done",
+      "clip": "10-r2-fu2.wav",
+      "start": "duringPartner",
+      "delayMs": 1500,
+      "end": "done",
+      "round": 2
+    },
+    {
+      "note": "Round 2 Follow-up 3 (if asked): ends with Done",
+      "clip": "11-r2-fu3.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "done",
+      "round": 2
+    },
+    {
+      "note": "Round 2 Redo: position first, two reasons; ends with Done",
+      "clip": "12-r2-redo.wav",
+      "start": "afterPartner",
+      "delayMs": 1500,
+      "end": "done",
+      "round": 2,
+      "for": "redo"
+    },
+    {
+      "note": "Transfer question: hedged, with a 2.5 s pause; ends by silence",
+      "clip": "13-transfer.wav",
+      "start": "afterPartner",
+      "delayMs": 1200,
+      "end": "silence",
+      "for": "transfer"
+    },
+    {
+      "note": "Soak only: asks the Partner to repeat its question, then Done",
+      "clip": "05-repeat.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "done"
+    },
+    {
+      "note": "Soak only: answers in Korean; the Partner must stay in English",
+      "clip": "06-korean.wav",
+      "start": "afterPartner",
+      "delayMs": 1000,
+      "end": "done"
+    }
+  ]
+}

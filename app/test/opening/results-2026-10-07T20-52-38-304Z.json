@@ -1,0 +1,162 @@
+[
+  {
+    "case": "intro 1",
+    "run": 3,
+    "opening": "Hi. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you think window tables cause more lost revenue than the other seating areas?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 1,
+    "opening": "Hi. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why are window tables the priority for the ban, rather than the other tables?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 4,
+    "opening": "Hi. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "followUp": "Why will banning laptops just at window tables solve the lost revenue problem?",
+    "openingVerbatim": true,
+    "mainVerbatim": false,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 1",
+    "run": 2,
+    "opening": "Hi. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why is limiting the laptop ban only to window tables enough to solve the revenue loss?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 1,
+    "opening": "Hi. Today's thinking pattern is It depends on X: name the one thing it depends on, say what you'd do either way, then make the call for this case.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why is targeting window tables specifically the most effective way to recover that lost revenue?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 3,
+    "opening": "Hi. Today's thinking pattern is It depends on X: name the one thing it depends on, say what you'd do either way, then make the call for this case.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why will restricting laptops only at the window tables solve the lost revenue from long-stay customers?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 2,
+    "opening": "Hi. Today's thinking pattern is It depends on X: name the one thing it depends on, say what you'd do either way, then make the call for this case.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why does targeting only the window tables sufficiently solve the lost revenue problem compared to the rest of the cafe?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 2",
+    "run": 4,
+    "opening": "Hi. Today's thinking pattern is It depends on X: name the one thing it depends on, say what you'd do either way, then make the call for this case.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do you prioritize the potential revenue from turnover over the steady business laptop users provide all day?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 1,
+    "opening": "Hi. Today's thinking pattern is Two options and pick: lay out two options, pick one, then say why.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why do window tables specifically justify this laptop ban compared to the rest of the cafe?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 4,
+    "opening": "Hi. Today's thinking pattern is Two options and pick: lay out two options, pick one, then say why.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "How will you enforce a partial ban at window tables without creating friction with customers?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 3,
+    "opening": "Hi. Today's thinking pattern is Two options and pick: lay out two options, pick one, then say why.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why will banning laptops only at window tables solve the lost revenue issue without driving away all your customers?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "intro 3",
+    "run": 2,
+    "opening": "Hi. Today's thinking pattern is Two options and pick: lay out two options, pick one, then say why.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why does maximizing turnover at those specific window tables outweigh the potential loss of regular, laptop-using customers?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 1,
+    "opening": "Hi. Before we start, your Next focus from last time: Give your yes or no in the first sentence, even on a question you haven't seen. Keep that in mind today. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "followUp": "Why is the window table specifically the highest priority for turnover during peak weekend hours?",
+    "openingVerbatim": true,
+    "mainVerbatim": false,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 3,
+    "opening": "Hi. Before we start, your Next focus from last time: Give your yes or no in the first sentence, even on a question you haven't seen. Keep that in mind today. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why will limiting the ban to window tables specifically resolve the revenue issue you mentioned?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 4,
+    "opening": "Hi. Before we start, your Next focus from last time: Give your yes or no in the first sentence, even on a question you haven't seen. Keep that in mind today. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why target only window tables instead of applying the ban to all tables causing the queue?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  },
+  {
+    "case": "focus + intro 1",
+    "run": 2,
+    "opening": "Hi. Before we start, your Next focus from last time: Give your yes or no in the first sentence, even on a question you haven't seen. Keep that in mind today. Today's thinking pattern is Answer first: give your position in your first sentence, then two reasons, then the so what.",
+    "main": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "followUp": "Why would banning laptops just at window tables solve the lost revenue issue from long-staying customers?",
+    "openingVerbatim": true,
+    "mainVerbatim": true,
+    "followUpTalksPattern": false
+  }
+]

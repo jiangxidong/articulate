@@ -1,0 +1,12 @@
+{
+  "name": "articulate-capture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.50.0"
+  }
+}

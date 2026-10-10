@@ -1,0 +1,1761 @@
+{
+  "scenes": [
+    {
+      "id": "01-corner-cafe",
+      "title": "The Corner Café",
+      "when": "Sat · 10:40",
+      "setting": "Saturday, 10:40. A busy corner café near the office. Every table is taken, half of them by people on laptops, and a queue is forming at the door.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A small, busy corner café on a Saturday morning, seen from just inside the entrance. Large street-facing windows with soft morning light, pendant lamps, a wooden counter with an espresso machine on the right. Most tables are occupied by people working on laptops; a short queue of customers waits near the door holding phones.",
+      "image": "scenes/01-corner-cafe.jpg"
+    },
+    {
+      "id": "02-supermarket-checkout",
+      "title": "The Supermarket Checkout",
+      "when": "Tue · 18:20",
+      "setting": "Tuesday, 18:20. The evening rush at the supermarket. Six self-checkout kiosks flash yellow lights waiting for assistance, while two staffed registers move steadily.",
+      "category": "Tech & society",
+      "imagePrompt": "A busy supermarket checkout area under bright overhead fluorescent lights. Several shoppers stand with grocery baskets in front of glowing touchscreens, while a store clerk assists a customer in the distance. Stacks of packaged goods and grocery aisles recede into the soft background.",
+      "image": "scenes/02-supermarket-checkout.jpg"
+    },
+    {
+      "id": "03-metro-carriage",
+      "title": "The Metro Carriage",
+      "when": "Thu · 08:15",
+      "setting": "Thursday, 08:15. A packed morning commuter train where nearly every passenger wears noise-cancelling headphones, staring down at a glowing smartphone in complete silence.",
+      "category": "Tech & society",
+      "imagePrompt": "The interior of a modern subway train car illuminated by cool overhead lighting and morning sun through the windows. Commuters sit and stand along the handrails, each looking down at their phone screens with headphones over their ears. Reflections of the urban cityscape blur softly through the carriage glass.",
+      "image": "scenes/03-metro-carriage.jpg"
+    },
+    {
+      "id": "04-weekend-farmers-market",
+      "title": "The Farmers Market",
+      "when": "Sun · 11:15",
+      "setting": "Sunday, 11:15. Stalls overflow with irregular, organic produce sold at twice supermarket prices, while shoppers debate over whole loaves of artisanal sourdough.",
+      "category": "Personal opinions",
+      "imagePrompt": "A sunlit open-air square filled with wooden vendor stalls offering baskets of vegetables, flowers, and rustic bread loaves. Shoppers in casual jackets stroll through the bright morning light, browsing displays and chatting at a distance. Gentle dappled tree shadows stretch across the cobblestone pavement.",
+      "image": "scenes/04-weekend-farmers-market.jpg"
+    },
+    {
+      "id": "05-school-gate",
+      "title": "The School Gate",
+      "when": "Mon · 08:25",
+      "setting": "Monday, 08:25. Parents crowd the school gate at drop-off. Cars double-park along the street while a crossing guard waves children across.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A primary school gate on a busy weekday morning. Parents with backpacks and scooters crowd the pavement, cars are double-parked along the narrow street, and a crossing guard in a high-visibility vest holds up a lollipop sign as children cross.",
+      "image": "scenes/05-school-gate.jpg"
+    },
+    {
+      "id": "06-apartment-lobby",
+      "title": "The Residents' Meeting",
+      "when": "Sun · 19:00",
+      "setting": "Sunday, 19:00. Residents gather in their apartment block's lobby. The lift is broken again, parcels pile up by the mailboxes, and everyone has a complaint.",
+      "category": "Everyday decisions",
+      "imagePrompt": "The lobby of an older apartment building in the evening. A dozen residents stand and sit on folding chairs in a loose circle, a lift door with an out-of-order cone in front of it, and a pile of delivery parcels stacked beside a wall of metal mailboxes.",
+      "image": "scenes/06-apartment-lobby.jpg"
+    },
+    {
+      "id": "07-neighbourhood-gym",
+      "title": "The Neighbourhood Gym",
+      "when": "Wed · 07:10",
+      "setting": "Wednesday, 07:10. A small neighbourhood gym at peak hour. Every treadmill is taken, people wait for the squat rack, and a notice announces new membership prices.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A small, busy neighbourhood gym early in the morning, seen from the entrance. A row of treadmills all in use by a window with dawn light, a couple of people waiting by a squat rack, dumbbells on racks, and a notice board near the door.",
+      "image": "scenes/07-neighbourhood-gym.jpg"
+    },
+    {
+      "id": "08-birthday-dinner",
+      "title": "The Family Birthday",
+      "when": "Sat · 14:00",
+      "setting": "Saturday, 14:00. A family plans Grandma's 80th birthday around the kitchen table. Menus, a guest list and three different budgets are spread out.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A warm family kitchen in the afternoon. Three adults of different generations sit around a wooden table covered with restaurant menus, a handwritten guest list, a laptop and cups of tea, with a calendar on the wall behind them.",
+      "image": "scenes/08-birthday-dinner.jpg"
+    },
+    {
+      "id": "09-city-park",
+      "title": "The City Park",
+      "when": "Sun · 16:30",
+      "setting": "Sunday, 16:30. A city park on a sunny afternoon. Dogs run off the lead on the lawn, the playground is packed, and food trucks line the gate.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A large city park on a sunny late afternoon. Dogs run across a wide lawn, a crowded playground sits under tall trees, families sit on blankets, and a row of food trucks with awnings lines the park gate in the background.",
+      "image": "scenes/09-city-park.jpg"
+    },
+    {
+      "id": "10-airport-gate",
+      "title": "The Delayed Flight",
+      "when": "Fri · 21:45",
+      "setting": "Friday, 21:45. A crowded airport gate after a two-hour delay. Passengers charge their phones on the floor and a queue snakes up to the desk.",
+      "category": "Everyday decisions",
+      "imagePrompt": "A crowded airport departure gate at night. Large windows show a parked plane under floodlights, tired passengers sit on the floor beside charging points, and a long queue leads to an airline desk with two staff members.",
+      "image": "scenes/10-airport-gate.jpg"
+    },
+    {
+      "id": "11-family-screens",
+      "title": "The Living Room",
+      "when": "Sun · 20:30",
+      "setting": "Sunday, 20:30. A family living room where everyone is on a different screen: a tablet, two phones, a laptop, and the TV on in the background.",
+      "category": "Tech & society",
+      "imagePrompt": "A cosy family living room in the evening, lit by a floor lamp. A parent on a laptop, a teenager on a phone sprawled on a beanbag, a child with a tablet on the rug, and a television glowing in the background that nobody is watching.",
+      "image": "scenes/11-family-screens.jpg"
+    },
+    {
+      "id": "12-delivery-street",
+      "title": "The Delivery Street",
+      "when": "Thu · 19:10",
+      "setting": "Thursday, 19:10. A residential street at dinner time. Delivery riders weave through on e-bikes, parcels sit on doorsteps, and a small delivery robot waits at the crossing.",
+      "category": "Tech & society",
+      "imagePrompt": "A residential street of terraced houses at dusk. Delivery riders on e-bikes with insulated boxes, cardboard parcels left on several doorsteps, and a small six-wheeled delivery robot waiting at a pedestrian crossing under a street lamp.",
+      "image": "scenes/12-delivery-street.jpg"
+    },
+    {
+      "id": "13-public-library",
+      "title": "The Public Library",
+      "when": "Sat · 11:00",
+      "setting": "Saturday, 11:00. A public library where most visitors work on laptops. The charging tables are full, and the bookshelves are almost empty of people.",
+      "category": "Tech & society",
+      "imagePrompt": "The bright reading room of a public library on a weekend morning. Long tables crowded with people on laptops and phone chargers, while tall wooden bookshelves along the walls stand almost deserted, with large arched windows letting in daylight.",
+      "image": "scenes/13-public-library.jpg"
+    },
+    {
+      "id": "14-smart-flat",
+      "title": "The Smart Flat",
+      "when": "Tue · 22:00",
+      "setting": "Tuesday, 22:00. A small flat full of connected devices: a speaker that listens, a camera doorbell, and lights that switch on by themselves.",
+      "category": "Tech & society",
+      "imagePrompt": "A small modern flat at night. A smart speaker glows on a shelf, a video doorbell screen by the front door, a robot vacuum on the floor, and warm lights that have switched on by themselves; one person on the sofa looks at a phone.",
+      "image": "scenes/14-smart-flat.jpg"
+    },
+    {
+      "id": "15-scooter-square",
+      "title": "The Scooter Square",
+      "when": "Mon · 08:40",
+      "setting": "Monday, 08:40. A city square where shared e-scooters and bikes lie across the pavement, and commuters unlock them with an app.",
+      "category": "Tech & society",
+      "imagePrompt": "A city square during the morning rush. Shared electric scooters and bikes are parked untidily across the pavement, some knocked over, while commuters unlock others with their phones and pedestrians step around them.",
+      "image": "scenes/15-scooter-square.jpg"
+    },
+    {
+      "id": "16-second-hand-bookshop",
+      "title": "The Bookshop",
+      "when": "Sat · 15:20",
+      "setting": "Saturday, 15:20. A cosy second-hand bookshop with a reading nook, a shelf of staff picks, and a sign-up sheet for a monthly book club.",
+      "category": "Personal opinions",
+      "imagePrompt": "A cosy second-hand bookshop in the afternoon. Tall shelves packed with worn books, an armchair reading nook by a window, a small table of staff picks, and a few browsers reading quietly.",
+      "image": "scenes/16-second-hand-bookshop.jpg"
+    },
+    {
+      "id": "17-holiday-planning",
+      "title": "The Holiday Plan",
+      "when": "Wed · 21:00",
+      "setting": "Wednesday, 21:00. Two friends plan a week's holiday on the sofa, a laptop open to flights and a paper map spread across the coffee table.",
+      "category": "Personal opinions",
+      "imagePrompt": "Two friends on a sofa in the evening planning a trip. A laptop showing a flight search, a large paper map unfolded on the coffee table with a guidebook and two mugs, and a suitcase leaning against the wall.",
+      "image": "scenes/17-holiday-planning.jpg"
+    },
+    {
+      "id": "18-early-kitchen",
+      "title": "The Early Kitchen",
+      "when": "Mon · 06:45",
+      "setting": "Monday, 06:45. A quiet kitchen before work. Coffee is brewing, running shoes wait by the door, and a phone is already buzzing on the counter.",
+      "category": "Personal opinions",
+      "imagePrompt": "A small, quiet kitchen at dawn. Coffee brewing in a glass pour-over, running shoes by the back door, a phone with a lit-up screen on the counter, and pale blue light coming through the window.",
+      "image": "scenes/18-early-kitchen.jpg"
+    },
+    {
+      "id": "19-dinner-party",
+      "title": "The Dinner Party",
+      "when": "Fri · 20:15",
+      "setting": "Friday, 20:15. A dinner party at a friend's flat. Eight people sit around a long table, phones face down, as a debate starts over dessert.",
+      "category": "Personal opinions",
+      "imagePrompt": "A lively dinner party in a friend's flat in the evening. Eight people around a long wooden table with candles, half-finished plates and a dessert in the middle, phones lying face down beside the glasses.",
+      "image": "scenes/19-dinner-party.jpg"
+    },
+    {
+      "id": "20-pottery-class",
+      "title": "The Pottery Class",
+      "when": "Thu · 19:30",
+      "setting": "Thursday, 19:30. An evening pottery class at a community centre. A dozen adults sit at wheels, most of them beginners, while one teacher moves between them.",
+      "category": "Personal opinions",
+      "imagePrompt": "An evening pottery class in a community centre studio. A dozen adults at pottery wheels with clay-covered hands, shelves of drying bowls along the wall, and a teacher leaning over to help a beginner.",
+      "image": "scenes/20-pottery-class.jpg"
+    },
+    {
+      "id": "21-delivery-app",
+      "title": "The Delivery App",
+      "when": "Fri · 19:40",
+      "setting": "Friday, 19:40. A hungry flatmate stares at a food delivery app: a surge fee, a 50-minute wait, and a pop-up offering a monthly subscription.",
+      "category": "Products & AI",
+      "imagePrompt": "A flat at dinner time. A young person on a kitchen stool holds a phone showing a food delivery app (no readable text), with an empty fridge open behind them and another flatmate looking over their shoulder.",
+      "image": "scenes/21-delivery-app.jpg"
+    },
+    {
+      "id": "22-streaming-sofa",
+      "title": "The Streaming Night",
+      "when": "Sun · 21:10",
+      "setting": "Sunday, 21:10. A couple scrolls through three streaming apps for twenty minutes without picking a film, just as a renewal reminder pops up.",
+      "category": "Products & AI",
+      "imagePrompt": "A couple on a sofa in a dim living room, lit by a large TV showing rows of film thumbnails (no readable text). One holds a remote, the other a phone, a bowl of popcorn untouched between them.",
+      "image": "scenes/22-streaming-sofa.jpg"
+    },
+    {
+      "id": "23-team-chat",
+      "title": "The Busy Office",
+      "when": "Tue · 10:15",
+      "setting": "Tuesday, 10:15. An open-plan office where the team chat app pings non-stop. One desk has headphones on and a do-not-disturb light; another has back-to-back meeting invites.",
+      "category": "Products & AI",
+      "imagePrompt": "An open-plan office in the morning. Rows of desks with monitors showing chat windows (no readable text), one person with large headphones and a small red light on their desk, another looking at a calendar full of blocks.",
+      "image": "scenes/23-team-chat.jpg"
+    },
+    {
+      "id": "24-expense-app",
+      "title": "The Expense Claim",
+      "when": "Mon · 09:05",
+      "setting": "Monday, 09:05. At a shared office desk, someone photographs a pile of travel receipts for the company's expense app while a colleague waits for approval.",
+      "category": "Products & AI",
+      "imagePrompt": "A shared office desk on a Monday morning. A person photographs a pile of paper receipts with their phone, a suitcase still beside the desk, and a colleague standing nearby holding a coffee and checking a laptop.",
+      "image": "scenes/24-expense-app.jpg"
+    },
+    {
+      "id": "25-ai-assistant-desk",
+      "title": "The AI Draft",
+      "when": "Wed · 14:30",
+      "setting": "Wednesday, 14:30. At her desk, a colleague lets an AI assistant draft a long email reply, while the person next to her leans over to read it.",
+      "category": "Products & AI",
+      "imagePrompt": "An office desk in the afternoon. A laptop screen shows an AI chat panel next to an email draft (no readable text), the person at the desk sits back with a coffee, and a colleague leans over from the next desk to look.",
+      "image": "scenes/25-ai-assistant-desk.jpg"
+    },
+    {
+      "id": "26-homework-room",
+      "title": "The Homework Room",
+      "when": "Thu · 16:00",
+      "setting": "Thursday, 16:00. A school study room after classes. Students ask AI chatbots for help with their homework while a teacher walks between the desks.",
+      "category": "Products & AI",
+      "imagePrompt": "A secondary school study room after classes, with afternoon light. Teenage students at desks with laptops and tablets showing chat windows (no readable text), exercise books open, and a teacher walking between the rows.",
+      "image": "scenes/26-homework-room.jpg"
+    },
+    {
+      "id": "27-support-chat",
+      "title": "The Support Chat",
+      "when": "Sat · 12:20",
+      "setting": "Saturday, 12:20. A traveller sorts out a cancelled booking with an airline's AI chat agent on a laptop, while the hold music for a human plays on speaker.",
+      "category": "Products & AI",
+      "imagePrompt": "A person at a kitchen table at midday with a laptop showing a customer-support chat window (no readable text), a phone on speaker beside it, a printed boarding pass and a half-packed bag on the chair.",
+      "image": "scenes/27-support-chat.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "01-corner-cafe/1",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?"
+    },
+    {
+      "id": "01-corner-cafe/2",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should cafés stop taking cash completely? Yes or no — and why?"
+    },
+    {
+      "id": "01-corner-cafe/3",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should restaurants stop taking reservations and go walk-in only?"
+    },
+    {
+      "id": "02-supermarket-checkout/1",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Supermarkets want to replace all staffed cashiers with self-checkout machines. Good idea or bad idea? What's your call?"
+    },
+    {
+      "id": "02-supermarket-checkout/2",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "You have a full basket at rush hour: wait in a slow staffed lane or try self-checkout? Which would you choose?"
+    },
+    {
+      "id": "02-supermarket-checkout/3",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "For self-checkout lanes, should supermarkets enforce a strict item limit or keep them open to everyone? Which policy is better?"
+    },
+    {
+      "id": "02-supermarket-checkout/4",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should supermarkets offer a small discount to shoppers who scan their own groceries instead of using cashiers? Good idea or not?"
+    },
+    {
+      "id": "02-supermarket-checkout/5",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "When queues build up, should stores open another staffed lane or add more assistants to the self-checkout area? Which would you pick?"
+    },
+    {
+      "id": "02-supermarket-checkout/6",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Will self-checkout make supermarkets feel less friendly for older shoppers, or will they soon get used to it? What's more likely?"
+    },
+    {
+      "id": "02-supermarket-checkout/7",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should supermarkets let shoppers scan items with their own phone as they walk round the store? Good idea or not?"
+    },
+    {
+      "id": "02-supermarket-checkout/8",
+      "sceneId": "02-supermarket-checkout",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Will fully automated grab-and-go stores ever completely replace standard supermarket checkouts, or is that unrealistic? What's more likely?"
+    },
+    {
+      "id": "03-metro-carriage/1",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Some cities want to ban all phone calls on commuter trains to keep them quiet. Good idea or going too far?"
+    },
+    {
+      "id": "03-metro-carriage/2",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should train companies post live delay updates on carriage screens, or only send them to passengers' phones? Which would you pick?"
+    },
+    {
+      "id": "03-metro-carriage/3",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Does wearing noise-cancelling headphones in public make people less safe, or is the risk exaggerated? What's your take?"
+    },
+    {
+      "id": "03-metro-carriage/4",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should commuter trains offer a cheaper fare to anyone who travels outside rush hour? Good idea or not?"
+    },
+    {
+      "id": "03-metro-carriage/5",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Paying for the train: tap your phone at the gate, or carry a paper season ticket? Which would you go for?"
+    },
+    {
+      "id": "03-metro-carriage/6",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Will working from home a few days a week make morning trains pleasant again, or will they stay just as packed? What's more likely?"
+    },
+    {
+      "id": "03-metro-carriage/7",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "On a crowded train, should parents hand a restless toddler a phone to keep them quiet? Good idea or bad idea?"
+    },
+    {
+      "id": "03-metro-carriage/8",
+      "sceneId": "03-metro-carriage",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "If transit systems install free high-speed Wi-Fi in every train, will it make morning commutes more relaxing or more stressful? What's your read?"
+    },
+    {
+      "id": "01-corner-cafe/4",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should the owner let customers order ahead on their phones and skip the queue at the door? Good idea or not?"
+    },
+    {
+      "id": "01-corner-cafe/5",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "On a busy Saturday, would you share a table with a stranger or take your coffee to go? Which would you choose?"
+    },
+    {
+      "id": "01-corner-cafe/6",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "If the café charged extra for takeaway cups, would people really start bringing their own? What's your read?"
+    },
+    {
+      "id": "01-corner-cafe/7",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The owner can fit three more small tables or keep the comfortable sofa corner. Which would you go for?"
+    },
+    {
+      "id": "01-corner-cafe/8",
+      "sceneId": "01-corner-cafe",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The owner plans to open an hour earlier on Saturdays to spread out the rush. Will it actually shorten the late-morning queue?"
+    },
+    {
+      "id": "05-school-gate/1",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "The school wants to close the street outside the gate to cars for 20 minutes at drop-off. Good idea or not?"
+    },
+    {
+      "id": "05-school-gate/2",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the school lock the gate at 8:30 sharp, so late children have to sign in at the office?"
+    },
+    {
+      "id": "05-school-gate/3",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "Should children aged nine and up be allowed to walk to school on their own? What's your call?"
+    },
+    {
+      "id": "05-school-gate/4",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "At drop-off, should parents say goodbye at the gate or walk their children right into the classroom? Which would you go for?"
+    },
+    {
+      "id": "05-school-gate/5",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "To cut the morning traffic, should the school start a walking group led by parents, or run a small school bus? Which would you pick?"
+    },
+    {
+      "id": "05-school-gate/6",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should the school let parents wait in the playground at pick-up, or keep them outside the gate? Which works better?"
+    },
+    {
+      "id": "05-school-gate/7",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The school plans to stagger start times by year group, ten minutes apart. Will that really calm the morning rush?"
+    },
+    {
+      "id": "05-school-gate/8",
+      "sceneId": "05-school-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "If the school gave small rewards to children who walk or cycle, would it change family habits for good, or only for a few weeks?"
+    },
+    {
+      "id": "06-apartment-lobby/1",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Your building wants a locked parcel room that residents open with a code. Good idea or not?"
+    },
+    {
+      "id": "06-apartment-lobby/2",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the residents' committee fine neighbours who leave rubbish in the hallway? Yes or no?"
+    },
+    {
+      "id": "06-apartment-lobby/3",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Your building wants quiet hours from 9 at night, weekends included — no drilling, music or parties. Good idea or going too far?"
+    },
+    {
+      "id": "06-apartment-lobby/4",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The lift keeps breaking. Repair it once more, or replace it even if that means a month on the stairs? Which would you vote for?"
+    },
+    {
+      "id": "06-apartment-lobby/5",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should residents raise problems in a building group chat, or only at a monthly meeting in the lobby? Which works better?"
+    },
+    {
+      "id": "06-apartment-lobby/6",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "A neighbour plays loud music late at night. Would you knock on their door yourself or ask the building manager to handle it?"
+    },
+    {
+      "id": "06-apartment-lobby/7",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Your building is thinking about a caretaker who lives on site. Is it worth it, or would a weekly visit do?"
+    },
+    {
+      "id": "06-apartment-lobby/8",
+      "sceneId": "06-apartment-lobby",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "If the lobby got a shared shelf where neighbours swap books and household items, would people actually use it? What's your read?"
+    },
+    {
+      "id": "07-neighbourhood-gym/1",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "The gym wants a 20-minute limit on treadmills at peak hours. Good idea or not?"
+    },
+    {
+      "id": "07-neighbourhood-gym/2",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the gym ban phones on the workout floor, so nobody holds a machine while scrolling? What's your call?"
+    },
+    {
+      "id": "07-neighbourhood-gym/3",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "Should a small neighbourhood gym stay open 24 hours, with no staff overnight? Good idea or not?"
+    },
+    {
+      "id": "07-neighbourhood-gym/4",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "At 7 in the morning, would you wait 15 minutes for the squat rack or change your workout and come back to it?"
+    },
+    {
+      "id": "07-neighbourhood-gym/5",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The gym has one spare room: more treadmills or a small studio for group classes? Which would you pick?"
+    },
+    {
+      "id": "07-neighbourhood-gym/6",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should the gym play loud upbeat music, or keep it quiet and let people use their own headphones? Which would you go for?"
+    },
+    {
+      "id": "07-neighbourhood-gym/7",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The gym will raise everyone's fee to include group classes, even for members who only use the machines. Fair or not?"
+    },
+    {
+      "id": "07-neighbourhood-gym/8",
+      "sceneId": "07-neighbourhood-gym",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "If the gym showed live crowd levels on its website, would people really spread out, or would peak hour stay just as busy?"
+    },
+    {
+      "id": "08-birthday-dinner/1",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the family keep Grandma's 80th birthday party a surprise? Good idea or not?"
+    },
+    {
+      "id": "08-birthday-dinner/2",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should the family hire a photographer for Grandma's 80th? Good idea or not?"
+    },
+    {
+      "id": "08-birthday-dinner/3",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the family ask guests not to bring gifts to Grandma's 80th? Yes or no?"
+    },
+    {
+      "id": "08-birthday-dinner/4",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "For Grandma's 80th, a restaurant meal or a home-cooked lunch with the whole family? Which would you go for?"
+    },
+    {
+      "id": "08-birthday-dinner/5",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should Grandma's party be a long lunch or a dinner that runs into the evening? Which would you pick?"
+    },
+    {
+      "id": "08-birthday-dinner/6",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the grandchildren give speeches at Grandma's party, or put together a photo slideshow instead? Which would you choose?"
+    },
+    {
+      "id": "08-birthday-dinner/7",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "One idea is a big party for Grandma with 60 guests. Will she really enjoy it, or find it tiring?"
+    },
+    {
+      "id": "08-birthday-dinner/8",
+      "sceneId": "08-birthday-dinner",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The family is using a shared online list to split the cooking and jobs for Grandma's party. Will it help, or cause more arguments?"
+    },
+    {
+      "id": "09-city-park/1",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The city wants dogs on the lead everywhere in the park, all day. Good idea or going too far?"
+    },
+    {
+      "id": "09-city-park/2",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should the park ban barbecues on the main lawn at weekends? Good idea or not?"
+    },
+    {
+      "id": "09-city-park/3",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should food trucks be allowed inside the park, not just at the gate? What's your call?"
+    },
+    {
+      "id": "09-city-park/4",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "The park has room for one new thing: a bigger playground or a fenced dog area. Which would you go for?"
+    },
+    {
+      "id": "09-city-park/5",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the city park close at sunset, or stay open with lights until 10 at night? Which would you pick?"
+    },
+    {
+      "id": "09-city-park/6",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "On a sunny Sunday, would you picnic on the busy main lawn or walk 20 minutes to a quieter corner? Which would you choose?"
+    },
+    {
+      "id": "09-city-park/7",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The park plans to remove its bins and ask people to take their rubbish home. Will it work?"
+    },
+    {
+      "id": "09-city-park/8",
+      "sceneId": "09-city-park",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "If the park added free outdoor gym machines, would people actually use them, or would they sit empty? What's your read?"
+    },
+    {
+      "id": "10-airport-gate/1",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Should airlines give delayed passengers meal vouchers, even if it means slightly higher fares for everyone? Good idea or not?"
+    },
+    {
+      "id": "10-airport-gate/2",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the airline let passengers with tight connections skip the queue at the desk? What's your call?"
+    },
+    {
+      "id": "10-airport-gate/3",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "The flight is overbooked. Would you give up your seat for a free hotel night and a seat tomorrow? What's your call?"
+    },
+    {
+      "id": "10-airport-gate/4",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "medium",
+      "text": "Should the airline send one message when the new time is certain, or an update every 20 minutes even with no news? Which would you prefer?"
+    },
+    {
+      "id": "10-airport-gate/5",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "Your flight is delayed two hours. Would you stay at the gate or find a restaurant across the terminal? Which would you do?"
+    },
+    {
+      "id": "10-airport-gate/6",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "easy",
+      "text": "The airport can add only one thing at busy gates: more charging points or more seats. Which would you pick?"
+    },
+    {
+      "id": "10-airport-gate/7",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "The airline says your delayed flight leaves in 30 minutes, but the plane isn't there yet. Is it worth queuing now to rebook?"
+    },
+    {
+      "id": "10-airport-gate/8",
+      "sceneId": "10-airport-gate",
+      "category": "Everyday decisions",
+      "difficulty": "hard",
+      "text": "If gate screens explained the real reason for every delay, would passengers be calmer or just more annoyed? What's more likely?"
+    },
+    {
+      "id": "11-family-screens/1",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should families have a rule that all phones go in a basket during dinner? Good idea or not?"
+    },
+    {
+      "id": "11-family-screens/2",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "A parent wants to switch off the home Wi-Fi at 10 every night, for adults too. Good idea or not?"
+    },
+    {
+      "id": "11-family-screens/3",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should parents be able to check everything their 14-year-old does on their phone? Yes or no — what's your call?"
+    },
+    {
+      "id": "11-family-screens/4",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Sunday evening at home: everyone on their own screen in the same room, or one film the whole family watches together? Which would you go for?"
+    },
+    {
+      "id": "11-family-screens/5",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should a family share one tablet the kids take turns on, or give each child their own? Which would you pick?"
+    },
+    {
+      "id": "11-family-screens/6",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "For a 10-year-old, a strict daily screen-time limit, or no limit but screens only in shared rooms? Which works better?"
+    },
+    {
+      "id": "11-family-screens/7",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "If parents cut their own screen time, will their kids follow, or just carry on as usual? What's more likely?"
+    },
+    {
+      "id": "11-family-screens/8",
+      "sceneId": "11-family-screens",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Will kids who grow up with a screen at every meal find it harder to hold a conversation as adults? What's your read?"
+    },
+    {
+      "id": "12-delivery-street/1",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should couriers just leave parcels on the doorstep when nobody's home, instead of taking them back? Yes or no?"
+    },
+    {
+      "id": "12-delivery-street/2",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "The council wants a strict speed limit for e-bikes on residential streets, delivery riders included. Good idea or not?"
+    },
+    {
+      "id": "12-delivery-street/3",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should small delivery robots be allowed on the pavement in residential streets? What's your call?"
+    },
+    {
+      "id": "12-delivery-street/4",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Dinner on a weeknight: order it to your door, or walk 10 minutes and pick it up yourself? Which would you go for?"
+    },
+    {
+      "id": "12-delivery-street/5",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "When you order online, several small deliveries as items are ready, or wait and get everything in one box? Which would you pick?"
+    },
+    {
+      "id": "12-delivery-street/6",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should parcels for a whole street go to one local locker, or to each front door? Which should a neighbourhood prefer?"
+    },
+    {
+      "id": "12-delivery-street/7",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "In 10 years, will people still go out to buy dinner, or will almost everything come to the door? What's more likely?"
+    },
+    {
+      "id": "12-delivery-street/8",
+      "sceneId": "12-delivery-street",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Is next-day delivery worth paying a little extra for, or does waiting a few days hardly matter? Is it worth it?"
+    },
+    {
+      "id": "13-public-library/1",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should libraries put a time limit on the charging tables so more people get a turn? Good idea or not?"
+    },
+    {
+      "id": "13-public-library/2",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should libraries let people eat and drink anywhere inside, not just in the café? Good idea or not?"
+    },
+    {
+      "id": "13-public-library/3",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should libraries let people book a desk online in advance, even if walk-in visitors sometimes find nothing free? Good idea or not?"
+    },
+    {
+      "id": "13-public-library/4",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "For a long day of focused work on your laptop, the public library or a coffee shop? Which would you choose?"
+    },
+    {
+      "id": "13-public-library/5",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should libraries keep a quiet rule everywhere, or allow talking on one floor? Which would you go for?"
+    },
+    {
+      "id": "13-public-library/6",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should a library spend its money on more e-books people borrow from home, or on keeping the building open longer? Which would you pick?"
+    },
+    {
+      "id": "13-public-library/7",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Will kids who grow up reading on screens ever enjoy paper books as much as their parents did? What's more likely?"
+    },
+    {
+      "id": "13-public-library/8",
+      "sceneId": "13-public-library",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Is a library full of people on laptops, but with nobody at the bookshelves, still doing its job? What's your take?"
+    },
+    {
+      "id": "14-smart-flat/1",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Your flatmate wants a camera doorbell that records everyone who comes to your door. Good idea or not?"
+    },
+    {
+      "id": "14-smart-flat/2",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should landlords be allowed to fit a listening smart speaker in flats they rent out furnished? Good idea or not?"
+    },
+    {
+      "id": "14-smart-flat/3",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should new flats come fitted with smart lights, heating and locks as standard? Good idea or not?"
+    },
+    {
+      "id": "14-smart-flat/4",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Lights that switch on by themselves when you walk in, or a plain switch by the door? Which would you choose?"
+    },
+    {
+      "id": "14-smart-flat/5",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Opening your front door with your phone, or with an ordinary key? Which would you trust more?"
+    },
+    {
+      "id": "14-smart-flat/6",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "A smart home that's very convenient but stops working when the Wi-Fi drops, or a simpler one that always works? Which would you pick?"
+    },
+    {
+      "id": "14-smart-flat/7",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "In 10 years, will most homes have a speaker that's always listening, or will people turn against them? What's more likely?"
+    },
+    {
+      "id": "14-smart-flat/8",
+      "sceneId": "14-smart-flat",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Do devices that do things by themselves make people more relaxed at home, or just more dependent? What's your read?"
+    },
+    {
+      "id": "15-scooter-square/1",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Should shared e-scooters only be parked in marked bays, even if the nearest bay is a few minutes' walk away? Good idea or not?"
+    },
+    {
+      "id": "15-scooter-square/2",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Should shared e-scooters be banned from the city centre during rush hour? Good idea or not?"
+    },
+    {
+      "id": "15-scooter-square/3",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Should riders have to wear a helmet on shared e-scooters, even if that means fewer people use them? Yes or no?"
+    },
+    {
+      "id": "15-scooter-square/4",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "A 15-minute trip across town: a shared e-scooter or the bus? Which would you go for?"
+    },
+    {
+      "id": "15-scooter-square/5",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "If a city could keep only one, shared bikes or shared e-scooters? Which should it keep?"
+    },
+    {
+      "id": "15-scooter-square/6",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "easy",
+      "text": "Own your own bike, or just unlock a shared one whenever you need it? Which would you pick?"
+    },
+    {
+      "id": "15-scooter-square/7",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "hard",
+      "text": "Will shared e-scooters really get people out of their cars, or mostly replace walking? What's more likely?"
+    },
+    {
+      "id": "15-scooter-square/8",
+      "sceneId": "15-scooter-square",
+      "category": "Tech & society",
+      "difficulty": "medium",
+      "text": "Will shared e-scooters still be on city streets in 10 years, or will most cities give up on them? What's more likely?"
+    },
+    {
+      "id": "04-weekend-farmers-market/1",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you get up early on a Sunday just to beat the crowds at a busy market? Yes or no?"
+    },
+    {
+      "id": "04-weekend-farmers-market/2",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you buy a vegetable you've never cooked before just because the seller recommends it? Yes or no?"
+    },
+    {
+      "id": "04-weekend-farmers-market/3",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Would you keep going to a market you love if it got so popular you had to queue at every stall?"
+    },
+    {
+      "id": "04-weekend-farmers-market/4",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "When you shop, do you enjoy chatting with the sellers, or would you rather just pay and go? Which is more you?"
+    },
+    {
+      "id": "04-weekend-farmers-market/5",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Do you plan your meals first and shop from a list, or buy what looks good and cook around it? Which do you prefer?"
+    },
+    {
+      "id": "04-weekend-farmers-market/6",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Sunday morning out at a busy market, or a slow breakfast at home — which would you pick?"
+    },
+    {
+      "id": "04-weekend-farmers-market/7",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Is paying twice the supermarket price for market produce worth it to you? What's your call?"
+    },
+    {
+      "id": "04-weekend-farmers-market/8",
+      "sceneId": "04-weekend-farmers-market",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "If the market started home delivery, would you still go in person on Sundays? What's your read?"
+    },
+    {
+      "id": "16-second-hand-bookshop/1",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you buy a book just because it's on a shop's staff picks shelf? Yes or no?"
+    },
+    {
+      "id": "16-second-hand-bookshop/2",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you buy a second-hand book with someone else's notes scribbled in the margins? Yes or no?"
+    },
+    {
+      "id": "16-second-hand-bookshop/3",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you join a monthly book club full of people you've never met? Yes or no — and why?"
+    },
+    {
+      "id": "16-second-hand-bookshop/4",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Paper books or e-books — which do you prefer for reading at home?"
+    },
+    {
+      "id": "16-second-hand-bookshop/5",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "When you pick your next book, do you trust friends' recommendations or your own browsing more? Which works better for you?"
+    },
+    {
+      "id": "16-second-hand-bookshop/6",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Once you've finished a book, would you rather keep it on your shelf or give it away? Which do you prefer?"
+    },
+    {
+      "id": "16-second-hand-bookshop/7",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "If you're not enjoying a book, is it worth it to you to finish it anyway, or do you stop halfway? What's your call?"
+    },
+    {
+      "id": "16-second-hand-bookshop/8",
+      "sceneId": "16-second-hand-bookshop",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Would you read more books if you read for 20 minutes every day instead of in long weekend sessions? What's your read?"
+    },
+    {
+      "id": "17-holiday-planning/1",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you go on a week-long holiday with a close friend and share a room the whole time? Yes or no?"
+    },
+    {
+      "id": "17-holiday-planning/2",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you switch off your work email completely for a week's holiday? Yes or no?"
+    },
+    {
+      "id": "17-holiday-planning/3",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you go on holiday with no fixed plan, booking each night's stay as you go? Yes or no — and why?"
+    },
+    {
+      "id": "17-holiday-planning/4",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "For a week away, a beach and lots of rest or a city full of sightseeing — which do you prefer?"
+    },
+    {
+      "id": "17-holiday-planning/5",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Do you prefer to plan a trip with a paper map and a guidebook, or entirely on your phone? Which works for you?"
+    },
+    {
+      "id": "17-holiday-planning/6",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you rather take one long holiday a year or several short weekend trips? Which would you go for?"
+    },
+    {
+      "id": "17-holiday-planning/7",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Is a 6 a.m. flight worth it to you for an extra half day at your destination? What's your call?"
+    },
+    {
+      "id": "17-holiday-planning/8",
+      "sceneId": "17-holiday-planning",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "When you travel with friends, would the trip go better if one person made all the decisions? What's your read?"
+    },
+    {
+      "id": "18-early-kitchen/1",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you lay out tomorrow's clothes and breakfast the night before? Good idea for you or not?"
+    },
+    {
+      "id": "18-early-kitchen/2",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you skip the news completely on weekday mornings? Yes or no?"
+    },
+    {
+      "id": "18-early-kitchen/3",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you get up an hour earlier every day if it gave you a quiet hour to yourself? Yes or no?"
+    },
+    {
+      "id": "18-early-kitchen/4",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Do you prefer to exercise in the morning before work or in the evening after? Which suits you better?"
+    },
+    {
+      "id": "18-early-kitchen/5",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Coffee made at home before work, or one bought on the way — which do you prefer?"
+    },
+    {
+      "id": "18-early-kitchen/6",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "On a weekday morning, would you rather check your messages first thing or wait until you start work? Which do you prefer?"
+    },
+    {
+      "id": "18-early-kitchen/7",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "If you ate the same breakfast every weekday, would your mornings get easier or just duller? What's your read?"
+    },
+    {
+      "id": "18-early-kitchen/8",
+      "sceneId": "18-early-kitchen",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Would you give up your alarm and wake up naturally, even if some days you started later? Is it worth it to you?"
+    },
+    {
+      "id": "19-dinner-party/1",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you ask your guests to take their shoes off at your place? Yes or no?"
+    },
+    {
+      "id": "19-dinner-party/2",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you bring a dish you made yourself, rather than a bought one, to a friend's dinner? Yes or no?"
+    },
+    {
+      "id": "19-dinner-party/3",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you invite friends who don't know each other to the same dinner? Good idea or not?"
+    },
+    {
+      "id": "19-dinner-party/4",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you rather host friends for dinner at home or meet them at a restaurant? Which do you prefer?"
+    },
+    {
+      "id": "19-dinner-party/5",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "At a dinner party, do you prefer one big conversation with the whole table or small chats with the people next to you?"
+    },
+    {
+      "id": "19-dinner-party/6",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "For a dinner with eight people, a seating plan or everyone sits where they like — which would you go for?"
+    },
+    {
+      "id": "19-dinner-party/7",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "When a friendly debate starts at the table, is it worth jumping in, or better to keep the peace? What's your call?"
+    },
+    {
+      "id": "19-dinner-party/8",
+      "sceneId": "19-dinner-party",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Is cooking everything yourself for eight guests worth it to you, or does it spoil your own evening? What's your read?"
+    },
+    {
+      "id": "20-pottery-class/1",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you sign up for an evening class in something you've never tried before? Yes or no?"
+    },
+    {
+      "id": "20-pottery-class/2",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you keep a wonky bowl you made yourself and actually use it at home? Yes or no?"
+    },
+    {
+      "id": "20-pottery-class/3",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you show your first clumsy attempts at a new hobby to your friends? Yes or no — and why?"
+    },
+    {
+      "id": "20-pottery-class/4",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "easy",
+      "text": "Would you rather learn a new skill in a class with others or alone from online videos? Which do you prefer?"
+    },
+    {
+      "id": "20-pottery-class/5",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "Would you rather take a class with a friend or go alone and meet new people? Which would you pick?"
+    },
+    {
+      "id": "20-pottery-class/6",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "medium",
+      "text": "After a long workday, would you rather spend the evening learning something new or resting at home? Which do you prefer?"
+    },
+    {
+      "id": "20-pottery-class/7",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "Is it worth it to you to stick with a hobby you're bad at for months before it gets fun? What's your call?"
+    },
+    {
+      "id": "20-pottery-class/8",
+      "sceneId": "20-pottery-class",
+      "category": "Personal opinions",
+      "difficulty": "hard",
+      "text": "If you joined a weekly evening class, would you still be going after three months? What's your honest read?"
+    },
+    {
+      "id": "21-delivery-app/1",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "At busy times, should a delivery app add a surge fee, or keep one price and let the wait grow longer? Which would you rather have?"
+    },
+    {
+      "id": "21-delivery-app/2",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a delivery app let you hide restaurants you never order from? Good idea or not?"
+    },
+    {
+      "id": "21-delivery-app/3",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "When the wait is 50 minutes, should a delivery app suggest nearby restaurants that can deliver faster? Good idea or not?"
+    },
+    {
+      "id": "21-delivery-app/4",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Will a free-delivery subscription save people money, or just make them order more than they need? What's more likely?"
+    },
+    {
+      "id": "21-delivery-app/5",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a delivery app ask for the rider's tip when you order, or after the food arrives? Which would you choose?"
+    },
+    {
+      "id": "21-delivery-app/6",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a delivery app show the rider moving on a live map, or just a simple arrival time? Which design is better?"
+    },
+    {
+      "id": "21-delivery-app/7",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Should a delivery app automatically refund the delivery fee when food arrives more than 20 minutes late? Yes or no?"
+    },
+    {
+      "id": "21-delivery-app/8",
+      "sceneId": "21-delivery-app",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "If a delivery app shows honest wait times even when they're long, will people trust it more or just order elsewhere? What's more likely?"
+    },
+    {
+      "id": "22-streaming-sofa/1",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should streaming apps stop auto-playing trailers while you're just browsing? Good idea or not?"
+    },
+    {
+      "id": "22-streaming-sofa/2",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Would a 'just pick a film for us' button on a streaming app actually help a couple who can't decide? What's your read?"
+    },
+    {
+      "id": "22-streaming-sofa/3",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a streaming app offer a cheaper plan with ads, or one ad-free price only? Which would you rather use?"
+    },
+    {
+      "id": "22-streaming-sofa/4",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a streaming app show the full catalogue, or only ten hand-picked films each night? Which would you rather use?"
+    },
+    {
+      "id": "22-streaming-sofa/5",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should cancelling a streaming subscription take one tap, even if people then cancel by accident and lose their watch history? Good idea or not?"
+    },
+    {
+      "id": "22-streaming-sofa/6",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "For a shared account, should a streaming app give everyone separate profiles, or one shared home screen for the household? Which works better?"
+    },
+    {
+      "id": "22-streaming-sofa/7",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Should a streaming app pause your subscription automatically if you haven't watched anything for two months? Good idea or not?"
+    },
+    {
+      "id": "22-streaming-sofa/8",
+      "sceneId": "22-streaming-sofa",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Will showing what your friends are watching help people choose faster, or just make the scrolling worse? What's more likely?"
+    },
+    {
+      "id": "23-team-chat/1",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a team chat tool hide read receipts by default? Good idea or not?"
+    },
+    {
+      "id": "23-team-chat/2",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should team chat notifications be off by default outside working hours, or left to each person? Which would you pick?"
+    },
+    {
+      "id": "23-team-chat/3",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a team chat app show how long your message has gone unanswered? Good idea or not?"
+    },
+    {
+      "id": "23-team-chat/4",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "When someone is on do-not-disturb, should a chat app warn you before you message them, or deliver it quietly? Which is better?"
+    },
+    {
+      "id": "23-team-chat/5",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a calendar tool refuse to send a meeting invite until the agenda box is filled in? Good idea or not?"
+    },
+    {
+      "id": "23-team-chat/6",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a busy team keep most of its talk in topic channels or in direct messages? Which works better?"
+    },
+    {
+      "id": "23-team-chat/7",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Will a 'focus hours' feature that blocks chat pings for two hours a day really help people get more done? What's your read?"
+    },
+    {
+      "id": "23-team-chat/8",
+      "sceneId": "23-team-chat",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "If a chat app shows everyone as 'active' or 'away', will people feel pressure to look online all day? What's more likely?"
+    },
+    {
+      "id": "24-expense-app/1",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an expense app reject a slightly blurry receipt photo, or accept it and let a person check later? Which is better?"
+    },
+    {
+      "id": "24-expense-app/2",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an expense app have you submit each receipt as you get it, or all together after a trip? Which would you prefer?"
+    },
+    {
+      "id": "24-expense-app/3",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an expense app remind your manager automatically if they haven't approved your claim within three days? Yes or no?"
+    },
+    {
+      "id": "24-expense-app/4",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an expense app approve small claims automatically and only send big ones to a manager? Good idea or not?"
+    },
+    {
+      "id": "24-expense-app/5",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an expense app show a simple progress tracker for each claim, or just email you when it's paid? Which would you rather have?"
+    },
+    {
+      "id": "24-expense-app/6",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Will snapping receipts with a phone camera really save time, or will people end up fixing the details by hand anyway? What's more likely?"
+    },
+    {
+      "id": "24-expense-app/7",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Should an expense app flag claims that look unusual, like a dinner on a Sunday, before a manager sees them? Good idea or not?"
+    },
+    {
+      "id": "24-expense-app/8",
+      "sceneId": "24-expense-app",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "If an expense app makes claiming almost effortless, will people start claiming small things they used to ignore? Is that a problem?"
+    },
+    {
+      "id": "25-ai-assistant-desk/1",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Would you let an AI assistant send routine replies for you without checking them first?"
+    },
+    {
+      "id": "25-ai-assistant-desk/2",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should emails drafted by an AI assistant carry a small note saying so? Good idea or not?"
+    },
+    {
+      "id": "25-ai-assistant-desk/3",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an AI assistant write a full draft for you, or just suggest the next sentence as you type? Which would you rather use?"
+    },
+    {
+      "id": "25-ai-assistant-desk/4",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an AI email assistant copy your own writing style, or write in a neutral, polished tone? Which is better?"
+    },
+    {
+      "id": "25-ai-assistant-desk/5",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an AI assistant ask you a couple of questions before drafting a reply, or just draft straight away? Which would you pick?"
+    },
+    {
+      "id": "25-ai-assistant-desk/6",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an email assistant warn you when your reply sounds rude or angry, before you hit send? Good idea or not?"
+    },
+    {
+      "id": "25-ai-assistant-desk/7",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "If everyone uses AI to write their emails, will emails get clearer, or just longer and less read? What's more likely?"
+    },
+    {
+      "id": "25-ai-assistant-desk/8",
+      "sceneId": "25-ai-assistant-desk",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Is an AI summary of a long email thread worth using if it sometimes misses one important detail? What's your call?"
+    },
+    {
+      "id": "26-homework-room/1",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a homework chatbot refuse to give students the final answer and only offer hints? Good idea or not?"
+    },
+    {
+      "id": "26-homework-room/2",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an AI homework helper show teachers a record of what each student asked it? Good idea or not?"
+    },
+    {
+      "id": "26-homework-room/3",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a homework chatbot explain things in a friendly, chatty way, or keep it short and to the point? Which works better for students?"
+    },
+    {
+      "id": "26-homework-room/4",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a homework chatbot answer in the student's home language, or only in the language the class is taught in? Which helps more?"
+    },
+    {
+      "id": "26-homework-room/5",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should a homework chatbot have a daily time limit for students, or be available whenever they want? Which is better?"
+    },
+    {
+      "id": "26-homework-room/6",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should a homework chatbot remember a student's past mistakes and bring them up in later sessions? Good idea or not?"
+    },
+    {
+      "id": "26-homework-room/7",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Will AI homework helpers help students learn faster, or just make homework pointless? What's more likely?"
+    },
+    {
+      "id": "26-homework-room/8",
+      "sceneId": "26-homework-room",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Is a tool that spots chatbot-written homework worth using if it sometimes wrongly accuses honest students? What's your call?"
+    },
+    {
+      "id": "27-support-chat/1",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an AI support agent offer a human straight away, even if it makes the human queue much longer for everyone? Good idea or not?"
+    },
+    {
+      "id": "27-support-chat/2",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "Should an AI support agent have a friendly name and personality, or act as a plain, neutral assistant? Which would you prefer?"
+    },
+    {
+      "id": "27-support-chat/3",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "easy",
+      "text": "For a cancelled booking, would you rather wait 40 minutes for a human or sort it now with an AI chat agent? Which would you choose?"
+    },
+    {
+      "id": "27-support-chat/4",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an airline's AI chat agent be allowed to rebook flights and issue refunds on its own, without a human checking? Good idea or not?"
+    },
+    {
+      "id": "27-support-chat/5",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "After a support chat, should you get the full written transcript, or a short summary of what was agreed? Which is more useful?"
+    },
+    {
+      "id": "27-support-chat/6",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "medium",
+      "text": "Should an AI support agent apologise when things go wrong, even though it isn't a person? Good idea or not?"
+    },
+    {
+      "id": "27-support-chat/7",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Will travellers trust an AI chat agent's promise about their refund as much as a human's? What's more likely?"
+    },
+    {
+      "id": "27-support-chat/8",
+      "sceneId": "27-support-chat",
+      "category": "Products & AI",
+      "difficulty": "hard",
+      "text": "Will people be more polite to AI support agents than to human staff, or less? What's more likely?"
+    }
+  ]
+}

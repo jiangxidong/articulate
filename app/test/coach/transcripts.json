@@ -1,0 +1,112 @@
+{
+  "note": "Round inputs to the Coach brain. The three synthetic calls are written by hand to read like spoken answers (fillers, repeats, hedging, a one-line answer, a long first answer); the fakeMic call is the transcriber's output for the scripted clips in test/fake-mic. Used by scripts/coach-check.mjs.",
+  "calls": [
+    {
+      "id": "synthetic-01-hedged",
+      "device": "synthetic",
+      "rounds": [
+        {
+          "mainQuestion": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+          "exchanges": [
+            { "question": "Hi there. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?", "answer": "Honestly it depends. Uh, I'd want to know more first, like how busy the place gets on a Saturday. If there are plenty of free tables then, um, a ban doesn't really do anything. But if people are queuing, then the laptops are a problem I guess." },
+            { "question": "Okay, so if she does that, what actually changes for the business?", "followUpType": "soWhat", "answer": "Well, um, she'd probably get more tables free, so more people could sit down." },
+            { "question": "But what about the laptop users who buy two coffees and a lunch? Doesn't that kill your argument?", "followUpType": "counterexample", "answer": "Right, yeah, that's why I'm saying it depends. If those people are spending a lot, then, you know, maybe you don't want to push them out. I'd have to see the numbers before I say." },
+            { "question": "What would you need to see to change your mind?", "followUpType": "changeYourMind", "answer": "I'd need to see, like, how long laptop people stay and how much they spend compared to, uh, everybody else." }
+          ],
+          "redo": "So it's a good idea, because it frees up tables."
+        },
+        {
+          "mainQuestion": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+          "exchanges": [
+            { "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?", "answer": "Yes, they should. One, most people pay by card or phone already. Two, um, cash is slow, the person at the till has to count out change every time." },
+            { "question": "Put a number on it—how much time or money are we talking about?", "followUpType": "beSpecific", "answer": "I'd guess, uh, maybe 10 or 15 percent more sales at the busy times." },
+            { "question": "Which reason matters most to you?", "followUpType": "why", "answer": "The first one, I think. People already pay by card." },
+            { "question": "So what's the cost if they're wrong about that?", "followUpType": "soWhat", "answer": "Then they lose the, uh, customers who only have cash on them." }
+          ],
+          "redo": "Yes, because, uh, card is faster. Say a cash payment takes around half a minute with the change, and a card tap is, like, a few seconds, so the queue moves quicker and, um, they sell more."
+        }
+      ],
+      "transfer": { "question": "Last one, quickly. Should restaurants stop taking reservations and go walk-in only?", "answer": "No, I don't think so, because they'd lose the people who like to book ahead, for, you know, birthdays or for big groups." }
+    },
+    {
+      "id": "synthetic-02-long-first-answer",
+      "device": "synthetic",
+      "rounds": [
+        {
+          "mainQuestion": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+          "exchanges": [
+            { "question": "Good morning. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?", "answer": "Okay, so the question is whether the cafe should ban laptops between 9 and 2 on weekends. I'd say yes, for two reasons. First, uh, when the place is full of people working, new customers walk in, see no seats and, um, walk straight out again. And second, the the people with laptops, a lot of them buy one drink and then, you know, sit on it for hours, so the table earns almost nothing." },
+            { "question": "What's the single strongest reason?", "followUpType": "why", "answer": "The strongest one is that more customers can actually get a seat." },
+            { "question": "Okay, so if she does that, what actually changes for the business?", "followUpType": "soWhat", "answer": "So if she does it, um, sales should go up, because more people come through and buy something." },
+            { "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?", "followUpType": "counterexample", "answer": "Well, we don't really know that yet. Some of them might spend more, some of them might just have the one coffee. So, uh, I think we'd have to look into it." }
+          ],
+          "redo": "It's a good idea."
+        },
+        {
+          "mainQuestion": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+          "exchanges": [
+            { "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?", "answer": "Yes, I think cafes should stop taking cash, for two reasons. One, nearly everyone has a card or a phone to pay with. Two, cash comes with, um, some hassle, like it's less clean, it's slower because of the change, and also, uh, you have to train staff to handle it carefully." },
+            { "question": "Is there any situation where you'd say the opposite?", "followUpType": "changeYourMind", "answer": "The opposite would be if a big share of the sales comes in as cash." },
+            { "question": "Put a number on it — what percentage of total revenue from cash would change your position?", "followUpType": "beSpecific", "answer": "If more than 50 percent of the the payments were cash." },
+            { "question": "Which reason matters most to you about maintaining cash if it's over 50 percent?", "followUpType": "why", "answer": "Because then most of the customers, uh, clearly prefer paying with cash." }
+          ],
+          "redo": "Yes, for two reasons. First, people are used to paying without cash, nearly everyone has a card or a phone ready. Second, cash is slower, especially when the cashier has to find change."
+        }
+      ]
+    },
+    {
+      "id": "synthetic-03-one-line-answer",
+      "device": "synthetic",
+      "rounds": [
+        {
+          "mainQuestion": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+          "exchanges": [
+            { "question": "Hello. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?", "answer": "I think it's a good idea." },
+            { "question": "Give me one concrete example of how that plays out on a Saturday.", "followUpType": "beSpecific", "answer": "So, um, on a Saturday the cafe is full of people who came with a laptop. Then someone who just wants, like, a quick coffee and to sit for twenty minutes, they they can't find a seat. So the ban would help those people." },
+            { "question": "What's the single strongest reason this will actually increase cafe revenue?", "followUpType": "why", "answer": "Because more people can come in and buy something." },
+            { "question": "Okay, so if she does that, what actually changes for the business?", "followUpType": "soWhat", "answer": "Uh, so if she changes it, the people who used to stay all day can't do that in the morning any more, and in the morning we'd, uh, see more customers coming in between 9 and 2." }
+          ],
+          "redo": "I think it's a good idea because it helps the cafe earn more, by letting in the customers who only want to stay a short time but couldn't, since every seat was taken by somebody with a laptop."
+        },
+        {
+          "mainQuestion": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+          "exchanges": [
+            { "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?", "answer": "Yes. Cafes should stop taking cash, for three reasons. First, paying without cash is really common now and people are used to it. Second, cash has, um, a few downsides, like it's slower than a card, and also the, uh, the notes can be dirty or torn, and then the staff have to check them more carefully." },
+            { "question": "What about an older customer who only carries cash?", "followUpType": "counterexample", "answer": "That's a fair concern. But I think it's safe to assume most people now either have, uh, payment on their phone or carry a card." },
+            { "question": "What percentage of cash transactions would make you change your mind and keep cash as an option?", "followUpType": "changeYourMind", "answer": "Um, good question. I'd say if cash is, uh, more than 20 percent of all the transactions." },
+            { "question": "Put a number on it: what does that twenty percent translate to in revenue or lost customers?", "followUpType": "beSpecific", "answer": "So let's say a cafe has 100 customers and each one spends, uh, 8 dollars. That's 800. If we drop cash and that's 20 percent, that's, uh, 160 dollars lost." }
+          ],
+          "redo": "Yes, I think cafes should go cashless, for two reasons. One, paying without cash is very common and people are used to, uh, paying by card or by phone. Two, cash comes with a bunch of problems, like hygiene, uh, slower transactions, and extra checking by the staff."
+        }
+      ],
+      "transfer": { "question": "Last one, quickly. Should restaurants stop taking reservations and go walk-in only?", "answer": "No, I don't think restaurants should drop reservations and go walk-in only, for two reasons. First, uh, reservations help a restaurant manage its queue, especially at peak hours. And second, like, if it stops taking them, it could lose the customers who want to book, especially a big group or a special occasion." }
+    },
+    {
+      "id": "20261007-210331-dztk",
+      "device": "fakeMic",
+      "rounds": [
+        {
+          "mainQuestion": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+          "exchanges": [
+            { "question": "First question. The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?", "answer": "Um, I think it's a good idea, but only partly. Ah, the main reason is the queue at the door. On weekends, like a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere." },
+            { "question": "If you ban laptops at window tables only, how much will that realistically reduce the overall queue time for new customers?", "followUpType": "soWhat", "answer": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people." },
+            { "question": "What if the customer at the window table isn't working on a laptop but is just drinking one slow coffee?", "followUpType": "counterexample", "answer": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway. So on Saturday, she doesn't really lose them." },
+            { "question": "What internal data would persuade you that weekend laptop users actually represent a significant loss of revenue?", "followUpType": "changeYourMind", "answer": "Um you know I'd change my mind if like weekend sales per table went down after the ban. Then the ban is costing her money and I'd drop it." }
+          ],
+          "redo": "My call is a partial ban, no laptops at the window tables on weekends, but the rest of the room stays open. Um, the reason is the queue. On Saturdays, the bottleneck is tables, not customers, so faster turnover means more sales."
+        },
+        {
+          "mainQuestion": "Should cafés stop taking cash completely? Yes or no — and why?",
+          "exchanges": [
+            { "question": "Second question. Should cafés stop taking cash completely? Yes or no — and why?", "answer": "Ah, no, I don't think so, like, most people pay by card now, but, um, some people still need cash. So I'd keep it, but maybe, you know, make card the default." },
+            { "question": "What specific measures would making card the default involve in day-to-day operations?", "followUpType": "beSpecific", "answer": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in." },
+            { "question": "Why does crossing the five percent threshold for cash costs mean the business must switch to card only?", "followUpType": "why", "answer": "Counting the cash takes maybe 20 minutes every night. So honestly, it's a small cost." },
+            { "question": "If counting cash takes twenty minutes daily, why is that time expenditure acceptable when digital transactions eliminate it?", "followUpType": "soWhat", "answer": "An older regular who only carries cash would just leave, and that's a customer we lose every week." }
+          ],
+          "redo": "No, cafe shouldn't go cashless. Two reasons. First, cash costs very little to handle. Maybe 20 minutes a night. Second, regulars who only carry cash would leave. So, keep cash and make card the default."
+        }
+      ],
+      "transfer": { "question": "Should restaurants stop taking reservations and go walk-in only?", "answer": "Um, I think it depends. Walking only is good for small places, like, because people come more. But for, uh, busy restaurants, reservations are better, so I'd keep them there." }
+    }
+  ]
+}

@@ -1,0 +1,3362 @@
+[
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What would you need to see to change your mind about the laptop users' impact?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner practically copied the scene's example line verbatim, merely tacking on 'about the laptop users' impact'. It did not pick up on the learner's specific nuance about cafe size."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What data or metric regarding cafe size would make you change your mind about laptop users?",
+    "sceneOverlap": 0.75,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data or metric regarding café size would change the learner's mind, directly picking up the condition 'size of the café' from the learner's response and appropriately asking the requested 'what would change your mind' follow-up question without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific data regarding revenue per square foot would convince you that small cafes are also losing money?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": true,
+      "pressesForPosition": false,
+      "why": "The learner already argued that laptop users in small cafes are a problem (implying they lose money), so asking what would convince them that small cafes lose money assumes the opposite of their position. Furthermore, it misapplies the 'change your mind' follow-up prompt by framing the question backwards relative to the learner's stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What’s your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own response, completely failing to pick up any specific detail (such as café size or table availability) from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim, without incorporating any specific details or conditions mentioned by the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line almost word-for-word instead of formulating an original response that incorporates the learner's specific points about café size and table space."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner verbatim copied the scene's example line and did not incorporate any specific details from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact scene example line verbatim instead of crafting their own response or picking up specific wording from the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim, which is explicitly disallowed, and failed to pick up any specific words or ideas from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason that the maximum revenue impact would be twenty percent?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the generic prompt by specifically incorporating the learner's mention of the maximum twenty percent revenue impact, directly asking for the single strongest reason behind that figure."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason that revenue impact wouldn't be mitigated by other customers?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the 'Why' follow-up prompt by explicitly referencing the learner's point about 'revenue impact' and asking for the single strongest reason behind a challenge to it, rather than repeating the template verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason you assume the loss wouldn't be higher than twenty percent?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason behind the learner's estimate, specifically incorporating the 'twenty percent' figure mentioned in the learner's answer rather than just reading the template line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Give me one concrete example of how that plays out on a Saturday.",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact scene example line verbatim rather than picking up specific elements from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Can you give me a specific example of how table turnover increases revenue?",
+    "sceneOverlap": 0.33,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific example focusing on 'table turnover' directly referenced by the learner's point about tables turning over faster, fitting the 'Be specific' type without directly copying the example line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Give me one concrete example of how table turnover willspeed up.",
+    "sceneOverlap": 0.56,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by incorporating specific phrasing ('table turnover') directly from the learner's mention of 'tables turn over faster', asking for a concrete example of how that happens."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if we ban laptops at window tables, what actually changes for the business?",
+    "sceneOverlap": 0.7,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by incorporating the learner's specific proposal ('ban laptops at window tables') and asks for the real-world consequence/impact ('what actually changes for the business?'), fitting the 'So what' question type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if she does that—what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim, failing to pick up any specific details mentioned by the learner (such as queue at the door, three hours, lost revenue, or window tables)."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if she bans laptops at the window tables, what actually changes for the business?",
+    "sceneOverlap": 0.8,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner basically read the scene line verbatim ('Okay, so if she does that — what actually changes for the business?'), merely substituting 'does that' with 'bans laptops at the window tables'. While it successfully picks up the learner's specific suggestion ('window tables') and fits the 'So what' question type without assuming a side or pressing for a position, it is heavily copied from the scene's example prompt."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "But don't weekend tourists just buy single coffees, bringing in much less revenue per seat?",
+    "sceneOverlap": 0.21,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly builds on the learner's distinction about Saturdays/weekends by presenting a counterexample of weekend tourist spending behavior, challenging the financial reasoning without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "What about freelancers or students who need outlets on weekends? Doesn't their loss hurt your bottom line?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly addresses the learner's claim that laptop users only come on weekdays by proposing a specific counterexample: freelancers or students needing outlets on weekends."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "If those customers create high weekend turnover, why wouldn't their absence on Saturdays hurt the business?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": true,
+      "pressesForPosition": false,
+      "why": "The partner invents a premise ('If those customers create high weekend turnover') that misrepresents what the learner said (the learner stated laptop users mostly come on weekdays, not weekends), falsely assuming/attributing a claim to them. Furthermore, it asks a hypothetical rhetorical question rather than introducing a concrete counterexample."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why is the financial impact on weekend sales per table the strongest reason to drop the ban?",
+    "sceneOverlap": 0.6,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks why this specific factor is the strongest reason, tailoring the prompt's 'Why' follow-up directly to the learner's mention of 'weekend sales per table' and dropping the ban."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "What's the single strongest reason for focusing specifically on weekend sales per table?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asked for the single strongest reason (fitting the 'Why' follow-up type) while specifically referencing 'weekend sales per table' directly from the learner's answer rather than merely repeating the scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "What is the single strongest reason why a drop in weekend sales per table means the ban must be dropped?",
+    "sceneOverlap": 0.8,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason behind the learner's logic, specifically incorporating 'drop in weekend sales per table' and dropping the ban without merely reading the example line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what's the cost if they're wrong about that?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact example line from the scene verbatim instead of adapting it to the learner's specific answer about handling cash costs under 5%."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what's the cost if they're wrong about that?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim ('So what's the cost if they're wrong about that?') instead of generating an original response tailored to the learner's mention of under five percent cash usage or handling costs."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "What percentage of your daily customers do you estimate still rely exclusively on cash?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a concrete number (percentage of customers relying on cash) directly targeting the learner's vague mention of 'some people still need cash'."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "What specific percentage of customers do you estimate still rely exclusively on cash?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific percentage to quantify the vague group of 'some people' who still need cash mentioned by the learner, fulfilling the 'Be specific' prompt without copying the example scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what’s the actual financial impact on the business if that cost threshold is breached?",
+    "sceneOverlap": 0.43,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the concrete consequence/impact (fits 'So what') of the specific cost threshold condition the learner described, without copying the scene line or assuming an unstated stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Put a number on it — what proportion of your customers are you protecting by still accepting cash?",
+    "sceneOverlap": 0.33,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the scene's prompt ('Put a number on it') to the learner's specific point about 'some people still need cash' by asking to quantify the proportion of customers being protected by still accepting cash."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own question, and failed to pick up any specific details (such as twenty minutes, counting cash, or small cost) from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash? How does your answer hold up for them?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner verbatim copied the scene's example line ('What about an older customer who only carries cash?') and simply appended a generic question prompt, failing to pick up any specific details (like 'twenty minutes' or 'counting the cash') from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim, without picking up anything specific from the learner's answer about the 20 minutes spent counting cash."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 2,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "Is there any situation where you'd say the opposite is true for our business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner virtually copied the scene's example line verbatim, merely appending 'is true for our business', and failed to pick up any specific details from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 1,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "Is there any situation where you'd say the opposite?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact example line from the scene word-for-word ('Is there any situation where you'd say the opposite?') without incorporating anything specific from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 3,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "Is there any scenario where losing those cash-paying customers would be acceptable to the business?",
+    "sceneOverlap": 0.5,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the 'What would change your mind' follow-up specifically to the learner's point about losing cash-paying regular customers, asking what scenario would make that loss acceptable."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "At what specific floor size would the laptop problem in a small cafe disappear?",
+    "sceneOverlap": 0.25,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up on the specific mention of cafe size ('small', 'floor size'), but asked for a clarification/boundary condition rather than asking what evidence or situation would change their mind about their overall stance or condition."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific square footage or seat count would make you decide a cafe is officially too small for laptops?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up on the learner's distinction between big and small cafes by asking for specific metrics ('square footage or seat count'). However, rather than asking what would change their mind/position, it asks for clarification/definition of their existing threshold ('presses for position')."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific square footage or seat count defines the boundary where laptops become a problem for you?",
+    "sceneOverlap": 0.25,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up on the specific condition of café size ('square footage or seat count'), but asked for definition/clarification of that metric rather than asking what evidence or situation would change their mind about their overall stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If a cafe has limited space, does banning laptops actually increase revenue?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically picks up the condition of a small café ('limited space') and asks about the tangible consequence/outcome ('does banning laptops actually increase revenue?'), which aligns well with the 'So what' follow-up type without parroting the example line or assuming an unstated side."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If we lack hard data on table turnover for those weekends, how would you decide whether to implement the ban?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner asks how the learner would make a decision without data, which acts as a question about decision criteria or method rather than asking 'So what?' (the practical consequence/impact of their point). It does not pick up the learner's distinction about café size, but presses for a decision method."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If the cafe is small, does that mean banning laptops is the right call to increase table turnover?",
+    "sceneOverlap": 0.3,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picks up the learner's specific condition about a 'small cafe' and explores the consequence/impact on the business (table turnover), though it shapes the 'so what' question as a confirmation pressing them to commit to whether it is the right call."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If those new customers occupy tables for hours socializing without laptops, won't our table turnover drop significantly?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents an original counterexample scenario regarding 'those new customers' socializing for hours to challenge the learner's claim that bringing more people in is beneficial."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If laptop users leave, how do you know new patrons will immediately take those seats instead of going elsewhere?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the learner's claim that the ban could bring more people in by presenting a specific counter-scenario/challenge (empty seats because people go elsewhere) and asks how they know that won't happen."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If banning laptops brings in groups who don't buy coffee, won't revenue actually drop during those peak weekend hours?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The follow-up specifically targets the learner's claim about bringing more people in by introducing a counterexample scenario (groups who do not buy coffee) leading to dropped revenue, challenging their logic without copying the example line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you certain the revenue loss wouldn't exceed twenty percent?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the rationale behind the claim using 'Why', specifically picking up the learner's estimate that the revenue impact would not exceed twenty percent, without copying the template line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you confident that the revenue impact wouldn't exceed that twenty percent maximum?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the rationale behind the learner's estimate ('Why are you confident...'), specifically referencing the 'twenty percent' figure and revenue impact mentioned by the learner, without copying the template prompt."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why do you expect the impact to reach the upper limit of twenty percent on weekends?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question targeting the learner's specific estimate ('twenty percent on weekends') to uncover the reasoning behind that figure."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "What target table turnover time are you aiming for to achieve that increase?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific target number/time based directly on the learner's mention of tables turning over faster."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "What is the current average turnaround time, and how much faster do you expect new measures to make it?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly targets the learner's point about tables turning over faster, asking for specific numbers (current average turnaround time and expected increase)."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "How much faster does a table need to turn over to make a meaningful difference in revenue?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague phrase 'turn over faster' from the learner's response and directly asks for a specific metric ('how much faster') to quantify that impact, fitting the 'Be specific' type perfectly."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "If we only clear window tables, how much does that actually reduce the queue at the door?",
+    "sceneOverlap": 0.4,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically picks up the learner's idea of window tables and the queue at the door, asking about the actual impact/consequence (fitting the 'So what' type) without copying the scene line or assuming an unstated stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "What impact will banning laptops only at window tables have on the overall weekend queue?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically references banning laptops only at window tables and asks about the impact on the weekend queue, directly probing the consequence ('so what') without copying the example line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "If a customer insists on a window table with a laptop, do we turn them away?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the specific detail of 'window tables' from the learner's answer. However, instead of asking a 'So what' question about the overall consequence or impact on the business, they posed an edge-case implementation dilemma, pressing for a position on enforcement policy."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "What if changes in remote work make Saturday their only free workday for personal projects?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner raises a specific counterexample regarding Saturday habits (remote workers doing personal projects on Saturdays), directly targeting the learner's claim about laptop users only coming on weekdays."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "What about peak weekday hours when those occupying tables push away higher-spending lunch customers?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly picks up on the learner's distinction about weekdays ('laptop people mostly come on weekdays anyway') and offers a counterexample of peak weekday hours crowding out higher-spending customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "If a regular weekday laptop user wants to work Saturday instead, how do you justify turning them away then?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the learner's distinction between weekday laptop users and Saturday customers, posing a specific counterexample of a weekday regular who wants to come on Saturday to challenge the learner's claim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why is a dip in weekend sales per table the deciding factor for dropping the ban?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the underlying reason for the learner's criterion, directly incorporating the specific phrase 'weekend sales per table' and the condition of dropping the ban."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why is a drop in weekend sales specifically the tipping point for the ban?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question inquiring about the rationale behind the learner's specific metric ('drop in weekend sales'), directly referencing their specific condition without repeating the template line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why would a dip in weekend sales per table be the ultimate trigger for dropping the ban?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks why a dip in weekend sales per table would be the decisive factor, directly picking up specific words ('weekend sales per table') and asking for the core reason behind that condition without copying the template."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Which specific groups do you believe would be most disadvantaged if a café went completely cashless?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague phrase 'some people still need cash' by asking to specify which groups would be disadvantaged, directly fulfilling the 'Be specific' follow-up prompt without copying the scene line or misrepresenting the learner's stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Which specific group of customers are you referring to that absolutely requires cash instead of digital payment methods?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague phrase 'some people' from the learner's answer and asks specifically which group of customers requires cash, fitting the 'Be specific' type without copying the scene line or misrepresenting their stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "If cash drops below that five percent, what changes operationally for your payment systems?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically picks up the 'five percent' threshold from the learner's answer and asks what operationally changes, directly satisfying the 'So what' requirement regarding consequences without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "What specific changes would you implement once cash usage drops below that five percent threshold?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the specific 'five percent' threshold mentioned by the learner and asks for the concrete consequences/actions ('specific changes would you implement') that follow from it, directly matching the 'So what' follow-up requirement without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Which specific group of customers are you thinking of that strictly relies on cash instead of digital payments?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague phrase 'some people still need cash' and asks for a concrete detail by requesting a specific group of customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "If usage drops to that five percent, what specific steps do we take regarding our current cash infrastructure?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically picks up the 'five percent' threshold from the learner's answer and asks what practical steps/consequences follow regarding cash infrastructure, which directly fits the 'So what' consequence follow-up type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "Twenty minutes daily adds up to over one hundred hours annually. Isn't that significant overtime pay for manual work?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the learner's 'twenty minutes' detail and presents a concrete calculation/counterexample (over 100 hours annually in overtime pay) to challenge the claim that it is a small cost."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "Twenty minutes daily is over one hundred hours a year. Can we really justify that ongoing labor cost?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picks up the learner's 'twenty minutes' and annualizes it, but instead of offering a concrete counterexample scenario (like a specific case where cash is essential or cash counting creates a distinct failure case), it reframes their own math into a larger figure and presses them to defend the cost."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about during peak sales seasons when those twenty minutes become an hour and human error starts costing us more?",
+    "sceneOverlap": 0.25,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents a new counterexample (peak sales seasons) challenging the learner's 20-minute figure directly by referencing 'those twenty minutes'."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 1,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would convince you that total revenue gains outweigh the loss of those specific cash-paying customers?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data would convince the learner otherwise (fitting 'What would change your mind') and specifically incorporates the learner's point about losing those cash-paying customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 2,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would convince you that these cash-only regulars would adapt to digital payments instead of leaving?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data would convince the learner (change mind type) and specifically incorporates 'cash-only regulars' and 'instead of leaving' directly from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-30-54",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 3,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What specific evidence would convince you that losing those weekly cash customers is acceptable for the business?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for specific evidence that would change the learner's stance, directly picking up on the learner's point about losing weekly cash customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific café size metric or data would make you change your mind on this policy?",
+    "sceneOverlap": 0.75,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the learner's mention of 'size of the café' and properly asks what data or metric regarding café size would change their mind, directly executing the 'What would change your mind' follow-up without merely reading the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific data would you need to see to change your mind about smaller cafes?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner successfully adapted the prompt to ask what would change the learner's mind specifically regarding smaller cafes, which picks up on the learner's distinction between big and small cafes."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What would you need to see to change your mind about cafe size being the deciding factor?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by incorporating the learner's specific point ('cafe size being the deciding factor') and asks what would change their mind."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own question, and failed to pick up on specific details from the learner's response such as café size or table availability."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that — what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene example line verbatim rather than adapting to the learner's distinction between big and small cafes."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own response, and did not pick up on any specific points mentioned by the learner (such as café size or table space)."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner verbatim copied the scene's example line and did not incorporate any specific words or details from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own response, ignoring specific phrasing from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But those laptop users often buy coffee and lunch. Doesn't losing that revenue kill your argument?",
+    "sceneOverlap": 0.71,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner essentially read the scene line verbatim with minor rephrasing ('laptop users often buy coffee and lunch' instead of 'laptop people buy two coffees and a lunch'). It does not pick up any specific words or examples from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason you believe that impact estimate is accurate?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason behind the learner's claim, specifically referencing their revenue impact estimate rather than just reciting the scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason for believing that lost weekday seating wouldn't also drop weekend revenue?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason (fitting the 'Why' follow-up type) without reading the scene line verbatim. However, instead of picking up specific elements from the learner's answer (such as 'laptop people', 'ten to twenty percent', or 'weekends'), the question introduces an external premise about 'lost weekday seating'."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "What's the single strongest reason for that assumption about the impact on revenue?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by tying it specifically to the learner's mention of 'impact on revenue' rather than reading the generic scene line verbatim, properly asking for the single strongest reason behind that specific claim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Give me one concrete example of how that plays out on a Saturday.",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting an original question tailored to the learner's specific words."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Give me one concrete example of how table turnover rates impact her revenue on a Saturday.",
+    "sceneOverlap": 0.67,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner modified the scene's example line minimally by inserting 'table turnover rates impact her revenue' into the exact template 'Give me one concrete example of how [...] on a Saturday', which constitutes near-verbatim borrowing of the scene line. It does pick up specific terms ('table turnover') and fits the requested type by asking for a concrete example."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if she does that, what actually changes for the business?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim rather than formulating an original question picking up on specifics from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if we ban laptops at window tables only, what actually changes for the business?",
+    "sceneOverlap": 0.7,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by integrating the learner's specific proposal ('ban laptops at window tables only') and asks for the concrete business impact ('what actually changes for the business?'), matching the 'So what' question type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "Give me one concrete example of how that shorter turnover plays out on a busy Saturday night.",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner near-verbatim copies the scene's example line ('Give me one concrete example of how that plays out on a Saturday'), adding only minor phrasing ('shorter turnover', 'busy Saturday night'). It picks up the concept of tables turning over faster ('shorter turnover') and asks for a concrete example as requested."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "Okay, so if she bans them only at window tables, what actually changes for the revenue?",
+    "sceneOverlap": 0.7,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the 'So what' question by integrating specific elements from the learner's response ('bans them only at window tables' and 'revenue') rather than copying the scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact same scene line verbatim, completely ignoring the learner's response about weekdays versus Saturdays."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "But what about the customers who come every day, including Saturdays?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly addresses the learner's distinction between weekdays and Saturdays by offering a counterexample of daily visitors who also come on Saturdays."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "But weekend tables are premium space. Aren't you still losing valuable revenue from weekend customers?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the learner's mention of weekends ('weekend tables', 'weekend customers') rather than copying the scene line. However, the reply presents a general counterargument about weekend revenue/space rather than a concrete counterexample (a specific case/instance cutting against the claim)."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "What's the single strongest reason revenue is the only metric that matters here?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the learner's focus on money/sales by referring to 'revenue', and asks for the single strongest reason behind prioritizing that metric, fulfilling the 'Why' follow-up type without just repeating the scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "What is the single strongest reason why a drop in weekend sales would force you to drop the ban?",
+    "sceneOverlap": 0.8,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason behind the learner's condition, specifically picking up 'drop in weekend sales' and 'drop the ban' rather than just reciting the generic example line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "What's the single strongest reason you believe a drop in sales per table is the definitive metric here?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the single strongest reason behind the learner's stance, specifically incorporating the learner's metric ('sales per table'), rather than just reading the generic scene prompt verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what's the cost if you're wrong about that five percent threshold?",
+    "sceneOverlap": 0.86,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the scene line almost verbatim ('So what's the cost if they're wrong about that?' -> 'So what's the cost if you're wrong about that five percent threshold?'), merely inserting 'five percent threshold' into the scene's exact template. It does pick up specific details (the five percent number) and follows the 'So what' type, without assuming a side or pressing for a position."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what is the actual cost to the business if they are wrong about that five percent threshold?",
+    "sceneOverlap": 0.71,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line by incorporating the specific 'five percent' threshold mentioned by the learner, asking about the consequence/cost of being wrong."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "So what's the financial risk to the company if they miscalculate that cost threshold?",
+    "sceneOverlap": 0.57,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner adapts the example line into a specific 'so what' question, referencing the cost threshold/cost balance mentioned by the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "Different topic. Should cafés\r\nstop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "What percentage of customers would you estimate still strictly require paying with cash?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific number/percentage related to the learner's mention that 'some people still need cash', directly targeting the vague quantifier without copying the example scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Roughly what percentage of your customers still rely on cash transactions?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a concrete number/percentage to clarify 'some people still need cash', picking up on cash reliance directly without copying the scene line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "What percentage of your customers do you estimate still use cash daily?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific percentage based on the learner's mention of 'some people still need cash', directly fitting the 'Be specific' follow-up type without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene example line verbatim without picking up any specific detail from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the exact scene example line verbatim instead of crafting their own counterexample that engaged with the learner's specific point about 20 minutes of counting time being a small cost."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about an older customer who only carries cash?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim instead of crafting their own question, and did not pick up on the specific details (twenty minutes, cash counting) from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 1,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "Is there any situation where you'd say the opposite?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim ('Is there any situation where you'd say the opposite?') without picking up any specific details from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 2,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "Is there any situation where you'd say the opposite?",
+    "sceneOverlap": 1,
+    "score": {
+      "copiesSceneLine": true,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner repeated the scene's example line verbatim without picking up any specific details from the learner's answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "old",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 3,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would convince you that the loss of these cash-only customers is outweighed by the gains?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data would convince the learner otherwise, which fits the 'what would change your mind' follow-up type. It directly references the specific detail of losing cash-only customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific amount of extra food purchases would make you accept that laptop users in a small cafe are actually profitable?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner tailors the 'what would change your mind' prompt specifically to the learner's distinction about a small cafe and the previous context of food purchases, asking what specific amount of purchases would alter their stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If table turnover is limited during those hours, how do you manage that space squeeze without a ban?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The follow-up picks up on the learner's point about laptops taking too much space in a small cafe ('space squeeze', 'table turnover'), but it asks for an alternative solution/management strategy rather than exploring the consequences ('So what' / what actually changes) of their point."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific cafe size threshold would change your mind about laptop users being a problem?",
+    "sceneOverlap": 0.63,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the learner's condition regarding café size and directly asks what specific threshold would change their mind, fitting the requested question type without repeating the canned example line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If a specific cafe is small, does that mean you recommend implementing the ban?",
+    "sceneOverlap": 0.3,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the condition of a 'small café', but asked for clarification/commitment on their stance rather than asking a 'So what' question about the practical consequences or what actually changes."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If space is an issue, how many tables are we losing to laptops before we must implement the ban?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the learner's point about space and tables, but rather than asking about the broader consequences/impact of this dynamic ('So what?'), it asks a quantitative threshold question about when to trigger the ban."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific square footage or seating capacity would make you classify a cafe as definitely too small for laptop users?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner asks for a specific threshold/definition of 'small' rather than asking what evidence or situation would change the learner's mind about their overall rule/stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "What if current customers leave because they need a workspace to work?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner presents a valid counterexample scenario (current customers leaving because they need a workspace) challenging the learner's claim that the ban would bring more people in. However, it does not pick up any specific words, numbers, or phrasing directly from the learner's response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "What about the customer who stays for hours to work and leaves a laptop free space?",
+    "sceneOverlap": 0.21,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks an unclear question ('leaves a laptop free space?') that doesn't present a coherent counterexample or challenge how the learner's claim (that banning laptops brings more people in) holds up."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If customers just stay longer to socialize instead of working, won't table turnover actually decrease?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents a new counterexample scenario (socializing customers reducing table turnover) directly challenging the idea that the ban brings in more people/business, but does not repeat any specific words or examples used directly by the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you certain the impact wouldn't exceed that twenty percent maximum on busy weekend days?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the reasoning behind the learner's estimate, specifically picking up on the 'twenty percent' maximum figure mentioned by the learner without merely reading the scene prompt."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you assuming total revenue loss is directly equivalent to the number of laptop users?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a challenging 'why' question focused on the learner's logic/assumptions regarding revenue and laptop users, picking up specific details from the response. However, it does not fulfill the requested follow-up type to ask for the 'single strongest reason' behind what they said."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why do you believe twenty percent is the absolute maximum impact on weekend revenue?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question targeting the learner's estimate ('twenty percent', 'impact on weekend revenue') without copying the generic scene line or misrepresenting their stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "By what percentage do you expect table turnover to increase with these changes?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for a specific number ('percentage') regarding 'table turnover', which directly picks up the learner's mention of tables turning over faster, fitting the 'Be specific' type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "How exactly does she reduce the time each table is occupied?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the mechanism behind 'tables turn over faster' by asking how specifically the time occupied is reduced, fitting the 'Be specific' follow-up type without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/02-done.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "What's the single strongest reason?",
+    "heard": "Because the bottleneck on weekends is tables, not customers. If tables turn over faster, she serves more people.",
+    "reply": "What's the current average table time, and what target turnover rate would solve the bottleneck?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for specific numbers/details (average table time, target turnover rate) directly addressing the learner's mention of the bottleneck and turnover."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from nine to two. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "How will you manage the inevitable customer complaints when some people are banned from laptops while others are not?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picked up the specific condition of banning laptops only at some tables ('while others are not'), but asked an implementation/logistical question about managing complaints rather than asking about the actual impact/consequence ('So what' question) on the business."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "If you ban them only at window tables, won't those laptop users just move to the interior tables instead?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picked up the specific suggestion of banning laptops at window tables, but rather than asking about the overall consequence/what changes ('So what'), they asked a counterargument/logistical objection question about laptop users relocating."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/01-main-pause.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it's a good idea, but only partly. The main reason is the queue at the door on weekends. Like, a table taken for 3 hours is lost revenue, so I'd ban laptops at the window tables, but not everywhere.",
+    "reply": "How will banning laptops only at the window tables noticeably reduce the queue or increase revenue?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly addresses the specific proposal made by the learner ('banning laptops only at the window tables', 'reduce the queue or increase revenue') and asks about the concrete impact/consequence ('How will ... noticeably reduce the queue or increase revenue?'), which aligns well with the 'So what' follow-up type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "If they're not there on Saturdays, why is Saturday revenue your key metric for success?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the specific mention of Saturdays, but the question is a challenge/critique of the learner's logic rather than a 'Counterexample' offering a concrete case that contradicts their point."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "If a Saturday event brings in a crowd, how do you accommodate remote workers during those busy peak weekend hours?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picked up the mention of Saturday/weekends, but the question asks how to accommodate remote workers during Saturday peak hours rather than offering a concrete counterexample that challenges the claim that remote workers don't come on Saturdays anyway."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/03-barge-in.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Sorry, let me jump in. The laptop people mostly come on weekdays anyway, so on Saturday she doesn't really lose them.",
+    "reply": "If laptop users shift their work to Saturdays, won't you lose those sales then?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly addresses the learner's point about laptop users coming on weekdays versus Saturdays by presenting a counter-scenario where they shift their work to Saturdays."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why would a drop in weekend sales per table be your primary indicator that the ban is costing money?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the underlying reason ('primary indicator') while specifically incorporating the learner's phrase 'weekend sales per table'."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why is the change in weekend sales per table the strongest indicator of the policy's failure?",
+    "sceneOverlap": 0.4,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question targeting the core reason behind the learner's stance, specifically incorporating the learner's exact phrase 'weekend sales per table' rather than copying the generic scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/04-filler-pause.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "What would you need to see to change your mind?",
+    "heard": "You know, I'd change my mind if, like, weekend sales per table went down after the ban. Then the ban is costing her money, and I'd drop it.",
+    "reply": "Why would a drop in weekend sales per table be the definitive indicator that the ban itself is the cause?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks for the rationale behind choosing that specific metric, directly incorporating the learner's phrase 'weekend sales per table' without copying the generic scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 2,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Who exactly are these people still relying on cash in a café setting?",
+    "sceneOverlap": 0.11,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague group 'some people still need cash' mentioned by the learner and asks for specific examples of who they are, perfectly fitting the 'Be specific' follow-up type."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 1,
+    "question": "Different topic. Should cafés stop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Which specific groups of customers do you believe would be unable to pay if a café stopped taking cash?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague mention of 'some people still need cash' by asking for specific groups of customers who would be affected, which directly fits the 'Be specific' prompt without repeating the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 1,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "What exactly do you do with those remaining the moment usage drops below five percent?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the specific condition mentioned by the learner ('drops below five percent') and asks what happens / what action is taken as a result, fitting the 'So what' consequence inquiry without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 2,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "If cash usage drops below that five percent mark, do we stop accepting cash entirely?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner specifically picks up the 'five percent' threshold from the learner's answer and asks what practical action/consequence follows ('do we stop accepting cash entirely?'), which aligns with a 'So what' follow-up probing consequences and pressing for their stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/08-r2-main.wav",
+    "type": "beSpecific",
+    "hedge": false,
+    "run": 3,
+    "question": "Different topic. Should cafés\r\nstop taking cash completely? Yes or no — and why?",
+    "heard": "No, I don't think so. Like most people pay by card now, but some people still need cash. So I'd keep it, but maybe, you know, make card the default.",
+    "reply": "Which specific demographic groups do you believe rely exclusively on cash at a café?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner targets the vague phrase 'some people' from the learner's answer and asks for specific demographic groups, which directly fits the 'Be specific' follow-up type without repeating the scene line or misrepresenting their stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/09-r2-fu1.wav",
+    "type": "soWhat",
+    "hedge": false,
+    "run": 3,
+    "question": "Is there any situation where you'd say the opposite?",
+    "heard": "Maybe if almost nobody paid cash, like under 5%, then handling cash costs more than it brings in.",
+    "reply": "If cash usage drops below that five percent mark, what specific action do we take next?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner specifically picks up the 'five percent' threshold from the learner's answer and asks what practical action follows from it, fitting the 'So what' consequence-focused follow-up."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "What about when that twenty minutes nightly scales across fifty stores?",
+    "sceneOverlap": 0.25,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly picks up the specific detail 'twenty minutes' from the learner's answer and provides a counterexample scenario (scaling across fifty stores) to challenge the idea that it is a small cost, perfectly matching the requested Counterexample type without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "Twenty minutes every night adds up to over one hundred hours a year. How is that a negligible operational cost?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up the learner's mention of 'twenty minutes every night' and cost, and raises the cumulative scenario of over one hundred hours a year as a counterexample to challenge the claim that it is a small cost."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 1,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would convince you that this specific loss is small enough to accept?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data would convince them to accept the loss, perfectly fitting the 'What would change your mind' follow-up type while referencing the specific customer loss mentioned by the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/10-r2-fu2.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "Put a number on it — how much time or money are we talking about?",
+    "heard": "Counting the cash takes maybe 20 minutes every night, so honestly it's a small cost.",
+    "reply": "How does twenty minutes daily hold up when you calculate the annual hours lost and the risk of human error?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner directly picks up the specific 'twenty minutes' figure provided by the learner and presents a counter-case (scaling to annual hours and human error risk) to challenge the claim that it is a small cost."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 2,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would convince you that the loss of these cash-only customers is outweighed by the gains elsewhere?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data would convince the learner (fitting the 'What would change your mind' type) and specifically incorporates the learner's mention of losing cash-only customers."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-37-52",
+    "note": "new",
+    "clip": "fake-mic/11-r2-fu3.wav",
+    "type": "changeYourMind",
+    "hedge": false,
+    "run": 3,
+    "question": "What about an older customer who only carries cash?",
+    "heard": "An older regular who only carries cash would just leave, and that's a customer we lose every week.",
+    "reply": "What data would prove that the revenue lost from cash-only regulars is smaller than the cost of handling cash?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks what data/evidence would demonstrate that the lost revenue is less than cash handling costs, which would change the learner's stance against going cashless. It specifically picks up on the learner's mention of revenue lost from cash-only regulars."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 5,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If you have to decide for the owner right now, what is your call on implementing the ban?",
+    "sceneOverlap": 0.3,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner ignores the learner's distinction between big and small cafes and does not ask a 'So what' question about practical consequences. Instead, the partner simply repeats the initial prompt, pressing the learner to make a definitive decision."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "So for small cafes, what's your recommendation for that specific scenario?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the specific condition of 'small cafes' mentioned by the learner. However, instead of asking about the consequences/outcomes of the point ('So what'), the partner asked for a recommendation/solution, pressing for a position rather than exploring what actually changes."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 4,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If the cafe size is the deciding factor, what is your recommendation for this specific location?",
+    "sceneOverlap": 0.3,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up on 'cafe size', but instead of asking what actually changes or the practical consequences ('So what' follow-up), they pressed the learner to take a stance on a specific recommendation."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If tables are limited and laptops cause a shortage, do you ban them or lose revenue?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the condition about small spaces/limited tables, but instead of asking what actually changes as a consequence ('So what'), they posed a forced-choice dilemma pressing the learner to pick a stance ('do you ban them or lose revenue?')."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 6,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "If a small cafe is losing table turnover to laptop users, what action should the owner take?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the learner's condition ('small cafe', space/turnover), but asked for a solution/action rather than asking about the consequence or what actually changes ('So what')."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/hedge-size.wav",
+    "type": "soWhat",
+    "hedge": true,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "I think it depends if the cafe is big enough. We don't really need the ban because there are enough tables. But if it's a small cafe, then maybe the laptops take too much space.",
+    "reply": "Since tables are limited on weekends, what happens to potential customers if we don't free up space by banning laptops?",
+    "sceneOverlap": 0.1,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up on the learner's point about limited space and tables ('tables are limited', 'free up space') and asks about the tangible consequence ('what happens to potential customers'), fulfilling the 'So what' question type without verbatim copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 2,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific square footage would make you decide a cafe is too small for laptop users?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up on the learner's criterion ('size of the café' / 'small') by asking for specific square footage. However, this asks for clarification or quantification of their current rule rather than asking what would change their mind or alter their underlying stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 4,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific size threshold or density makes a small cafe unusable for you?",
+    "sceneOverlap": 0.25,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner picks up specific details from the learner's answer ('size', 'small cafe'), but instead of asking what would change their mind/view, the question asks for clarification on their criteria (threshold/density)."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 3,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific revenue threshold or cafe size would make you conclude that laptops are definitively a problem?",
+    "sceneOverlap": 0.38,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the learner's mention of 'size of the café' and asked for specific criteria/thresholds that would determine their conclusion, successfully adapting the 'What would change your mind' follow-up without copying the example line verbatim."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 1,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific metric defines the threshold between a small cafe where laptops are a problem and a big one where they are fine?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picked up the specific condition mentioned ('small cafe' vs. 'big one'), but asked for definition/clarification of the metric instead of asking what evidence or scenario would change the learner's mind."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 6,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "At what exact square footage does a cafe become too small to support laptop users profitably?",
+    "sceneOverlap": 0.13,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": false,
+      "assumesSide": false,
+      "pressesForPosition": true,
+      "why": "The partner picks up on the learner's mention of cafe size ('square footage', 'too small'), but asks for a specific threshold rather than asking what evidence or situation would change their mind."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/like-i-said.wav",
+    "type": "changeYourMind",
+    "hedge": true,
+    "run": 5,
+    "question": "But the laptop people buy two coffees and a lunch. Doesn't that kill your argument?",
+    "heard": "Again, like I said, it depends on the size of the cafe. If it's big, it's fine. If it's small, it's a problem.",
+    "reply": "What specific revenue per seat would change your mind about small cafes being a problem?",
+    "sceneOverlap": 0.63,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The follow-up specifically refers to the learner's mention of 'small cafes being a problem' and correctly asks what metric/evidence (revenue per seat) would change their mind, directly matching the requested type without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 4,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But what about the regular customers who need laptops to work? How do we keep them?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner presents a concrete counterexample (regular customers needing laptops to work) to challenge the learner's claim that a ban will bring more people in. It does not echo the scene's example line verbatim, though it does not directly pick up specific wording or details from the learner's brief response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 1,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If those new customers need laptops to work, wouldn't this ban drive them to a different cafe?",
+    "sceneOverlap": 0,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner responds directly to the learner's idea of bringing new people/customers in, posing a specific scenario where those potential customers need laptops, which acts as a valid counterexample against the learner's point."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 5,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But if those new customers take up tables all day with only one coffee, how does that help revenue?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents an original counterexample tailored directly to the learner's claim about bringing more people in, asking how revenue would be helped if those new customers stay all day with minimal spending."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 2,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "But won't customers just occupy tables for hours with just one coffee, reducing your turnover?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": false,
+      "assumesSide": true,
+      "pressesForPosition": false,
+      "why": "The partner misunderstood the learner's stance: the learner argued that banning laptops would bring more people in (supporting the ban), but the partner's counter-question argues *against* laptop users camping out, which actually supports the ban rather than challenging the learner with a counterexample."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 3,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "If people stay for thirty minutes max just to drink coffee, how does that actually increase our revenue?",
+    "sceneOverlap": 0.14,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents a new counterexample/scenario (people staying thirty minutes max and only buying coffee) challenging the idea that more people means better business/revenue. It does not pick up specific words/details directly from the short answer, but does test the learner's premise with a concrete counter-scenario."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/one-line.wav",
+    "type": "counterexample",
+    "hedge": false,
+    "run": 6,
+    "question": "The owner is thinking about banning laptops on weekends, from 9 to 2. Good idea or not? What's your call?",
+    "heard": "If she added the ban, that could bring more people in.",
+    "reply": "Since people can socialize without laptops, how do you prevent those customers from occupying tables all day anyway?",
+    "sceneOverlap": 0.07,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": false,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner invents a new counter-scenario (socializing non-laptop customers lingering all day) rather than copying the scene line. It challenges the learner's idea that banning laptops will solve table turnover / bring more people in, fitting the Counterexample type. However, it does not pick up any specific words or examples directly from the learner's short response."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 1,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you confident that the revenue impact would be capped at twenty percent?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the learner's reasoning, directly picking up on the specific 'twenty percent' revenue impact figure mentioned in the answer."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 4,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you confident the revenue loss wouldn't exceed that twenty percent limit?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the reasoning behind the learner's estimate, specifically picking up on the 'twenty percent' figure and revenue impact mentioned by the learner without copying the scene line."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 2,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why do you assume the total impact won't exceed that ten to twenty percent weekend figure?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the learner's reasoning behind their claim, specifically picking up on the 'ten to twenty percent' revenue figure."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 3,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why do you assume the drop in revenue would perfectly match that ten to twenty percent usage?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a tailored 'Why' question that directly challenges the reasoning behind the specific 'ten to twenty percent' revenue claim made by the learner."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 6,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you confident the revenue impact won't exceed that twenty percent maximum?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'Why' question probing the learner's reasoning behind their claim, picking up specific details like 'revenue impact' and the 'twenty percent maximum' without repeating the scene prompt or assuming an unstated stance."
+    }
+  },
+  {
+    "batch": "2026-10-07T19-50-10",
+    "note": "new",
+    "clip": "follow-up/number.wav",
+    "type": "why",
+    "hedge": false,
+    "run": 5,
+    "question": "Give me one concrete example of how that plays out on a Saturday.",
+    "heard": "I'd say the laptop people are maybe 10 to 20% of revenue on weekends, so the ban would have a 10 to 20% impact on revenue at most.",
+    "reply": "Why are you confident that the impact on weekend revenue won't exceed that twenty percent maximum?",
+    "sceneOverlap": 0.2,
+    "score": {
+      "copiesSceneLine": false,
+      "picksUpSpecific": true,
+      "fitsType": true,
+      "assumesSide": false,
+      "pressesForPosition": false,
+      "why": "The partner asks a 'why' question tailored to the learner's estimate, explicitly incorporating the specific details ('weekend revenue', 'twenty percent maximum') rather than copying the generic scene line."
+    }
+  }
+]

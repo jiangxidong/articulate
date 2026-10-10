@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+.env.*
+.dev.vars
+*.local
+
+# Build / tooling
+node_modules/
+dist/
+.wrangler/
+
+# OS
+.DS_Store
+
+# Local working files: agent configuration, work logs, throwaway spike and prototype
+CLAUDE.md
+AGENTS.md
+.claude/
+.scratch/
+docs/agents/
+spike/
+prototype/
+
+# Ad-hoc runs of scripts/follow-up-check.mjs (the kept comparison is results-old-vs-new.json)
+app/test/follow-up/results-2*.json
+# Ad-hoc runs of scripts/bank-check.mjs (the kept full run is results-all-216.json)
+app/test/bank/results-2*.json
+# Ad-hoc runs of scripts/coach-check.mjs
+app/test/coach/results-2*.json

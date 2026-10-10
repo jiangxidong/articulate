@@ -1,0 +1,18 @@
+{
+  "name": "articulate",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": "dist", "binding": "ASSETS" },
+  "durable_objects": {
+    "bindings": [
+      { "name": "GATE", "class_name": "Gate" },
+      { "name": "LOGS", "class_name": "CallLogs" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["Gate", "SessionLogs"] },
+    { "tag": "v2", "renamed_classes": [{ "from": "SessionLogs", "to": "CallLogs" }] }
+  ],
+  "observability": { "enabled": true }
+  // Secrets (wrangler secret put): GEMINI_API_KEY, PASSCODE, SESSION_SECRET. Locally: app/.dev.vars (gitignored).
+}
